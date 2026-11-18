@@ -1,9 +1,23 @@
 import type { NextConfig } from "next";
+import os from "node:os";
+
+const networkInterfaces = os.networkInterfaces();
+
+const lanOrigins = Object.values(networkInterfaces)
+  .flat()
+  .filter(
+    (item) =>
+      item &&
+      item.family === "IPv4" &&
+      !item.internal &&
+      item.address.startsWith("192.168.")
+  )
+  .map((item) => item!.address);
 
 const nextConfig: NextConfig = {
-  /* config options here */
   cacheComponents: true,
   partialPrefetching: true,
+
   turbopack: {
     rules: {
       "*.css": {
@@ -12,6 +26,8 @@ const nextConfig: NextConfig = {
       },
     },
   },
+
+  allowedDevOrigins: ["http://localhost:3000"],
 };
 
 export default nextConfig;
