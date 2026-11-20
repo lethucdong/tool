@@ -20,7 +20,29 @@ if (!globalForBot.botLogs) globalForBot.botLogs = [];
 if (globalForBot.isExecuting === undefined) globalForBot.isExecuting = false;
 
 const SUCCESS_LOG_PATH = path.join(process.cwd(), 'action_success.log');
-const TRAY_ZONES = ['silk', 'herb', 'compost', 'forest', 'legend'] as const;
+const TRAY_ZONES = ['silk', 'herb', 'compost', 'forest'] as const;
+const NOTE_HELP = [
+    "Lêu lêu, nợ tui một lời khen nha!",
+    "Khỏi cảm ơn, nhớ tui tốt bụng là được!",
+    "Không cần cảm ơn, ghi nhớ công đức của tui nha!",
+    "Lêu lêu, lần sau nhớ khen tui đẹp trai!",
+    "Giúp rồi đó, nhớ cho tui một slot trong lòng nha!",
+    "Khỏi khách sáo, tui nhận lời khen là đủ!",
+    "Không cần cảm ơn, chỉ cần nhớ ai đã cứu bạn!",
+    "Lêu lêu, ân tình này đổi bằng một lời khen nha!",
+    "Thấy tui tốt bụng chưa, nhớ đánh giá 5 sao nha!",
+    "Không cần cảm ơn, cứ ngưỡng mộ tui là được!",
+    "Giúp đỡ tận tình, mong bạn lưu danh tui vào sử sách!",
+    "Lêu lêu, nhớ trả công bằng một nụ cười nha!",
+    "Khỏi cảm ơn, tui thích làm người hùng thầm lặng!",
+    "Không cần khách sáo, lần sau nhớ réo tui tiếp!",
+    "Giúp bạn là niềm vui, được bạn khen là hạnh phúc!",
+    "Xong nhiệm vụ, xin nhận một tràng pháo tay!",
+    "Lêu lêu, nhớ mang ơn vừa đủ thôi nha!",
+    "Không cần cảm ơn, cứ kể tốt về tui là được!",
+    "Tui giúp bằng cả tấm lòng, nhớ khen bằng cả trái tim nha!",
+    "Khỏi cảm ơn, tui cho phép bạn ngưỡng mộ tui!"
+];
 
 export function addLog(message: string, type: BotLog['type'] = 'info') {
   const time = new Date().toLocaleTimeString('vi-VN');
@@ -353,7 +375,9 @@ async function sendNeighborAction(farmId: number, payload: Record<string, unknow
 
     if (res.status === 200) {
       addLog(`[Farm #${farmId}] ✅ Thành công: ${JSON.stringify(payload)}`, 'success');
-      await fs.appendFile(SUCCESS_LOG_PATH, logLine + '\n', 'utf-8').catch(() => {});
+      if (payload.type === 'note') {
+        await fs.appendFile(SUCCESS_LOG_PATH, logLine + '\n', 'utf-8').catch(() => {});
+      }
     } else {
       const errText = await res.text().catch(() => '');
       addLog(`[Farm #${farmId}] ❌ Thất bại ${res.status}: ${errText}`, 'error');
@@ -367,6 +391,7 @@ async function sendNeighborAction(farmId: number, payload: Record<string, unknow
 async function processNeighborFarm(farmId: number, features: BotConfig['features']) {
   const baseUrl = process.env.GAME_API_BASE || 'https://at-sp.ssvhue.work/api';
   const getUrl = `${baseUrl}/farm/visit/${farmId}`;
+  let helpSuccess = false;
 
   try {
     const controller = new AbortController();
@@ -396,6 +421,7 @@ async function processNeighborFarm(farmId: number, features: BotConfig['features
         if (plots[idx]?.canWater === true) {
           await new Promise((r) => setTimeout(r, 1000 + Math.random() * 2000));
           await sendNeighborAction(farmId, { type: 'water', plot: idx });
+          helpSuccess = true;
         }
       }
 
@@ -404,6 +430,7 @@ async function processNeighborFarm(farmId: number, features: BotConfig['features
         if (flowerbed[idx]?.canWater === true) {
           await new Promise((r) => setTimeout(r, 1000 + Math.random() * 2000));
           await sendNeighborAction(farmId, { bed: 'flower', plot: idx, type: 'water' });
+          helpSuccess = true;
         }
       }
     }
@@ -426,6 +453,7 @@ async function processNeighborFarm(farmId: number, features: BotConfig['features
           if (item.canHelp === true || isBlockedReady) {
             await new Promise((r) => setTimeout(r, 1000 + Math.random() * 2000));
             await sendNeighborAction(farmId, { type: 'helpTray', zone, slot: idx });
+            helpSuccess = true;
           }
         }
       }
@@ -437,20 +465,26 @@ async function processNeighborFarm(farmId: number, features: BotConfig['features
         if (animals[idx]?.canFeed === true) {
           await new Promise((r) => setTimeout(r, 1000 + Math.random() * 2000));
           await sendNeighborAction(farmId, { type: 'feed', slot: idx });
+          helpSuccess = true;
         }
       }
 
-      if(farm.guard == "scarecrow" || farm.guard == null || farm.guard=="")
-      {
-        const plots = Array.isArray(farm.plots) ? farm.plots : [];
-        for (let idx = 0; idx < plots.length; idx++) {
-          if (plots[idx]?.canWater === true) {
-            await new Promise((r) => setTimeout(r, 1000 + Math.random() * 2000));
-            await sendNeighborAction(farmId, { type: 'harvest', plot: idx });
-          }
-        }
-      }
+    //   if(farm.guard == "scarecrow" || farm.guard == null || farm.guard=="")
+    //   {
+    //     const plots = Array.isArray(farm.plots) ? farm.plots : [];
+    //     for (let idx = 0; idx < plots.length; idx++) {
+    //       if (plots[idx]?.canWater === true) {
+    //         await new Promise((r) => setTimeout(r, 1000 + Math.random() * 2000));
+    //         await sendNeighborAction(farmId, { type: 'harvest', plot: idx });
+    //       }
+    //     }
+    //   }
     }
+
+    if (helpSuccess) {
+      await sendNeighborAction(farmId, { "type": "note", "message": NOTE_HELP[Math.floor(Math.random() * NOTE_HELP.length)] });
+    }
+
   } catch (err: unknown) {
     const msg = err instanceof Error ? err.message : 'Lỗi không xác định';
     addLog(`[EXCEPTION GET] Farm #${farmId}: ${msg}`, 'error');

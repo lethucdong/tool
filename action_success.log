@@ -718,3 +718,620 @@
 [17:19:34 18/11/2026] [GỬI POST] Farm HuyHVQ -> URL: https://at-sp.ssvhue.work/api/farm/visit/7 | Payload: {"type":"helpTray","zone":"silk","slot":3}
 [17:19:37 18/11/2026] [GỬI POST] Farm HuyHVQ -> URL: https://at-sp.ssvhue.work/api/farm/visit/7 | Payload: {"type":"helpTray","zone":"silk","slot":4}
 [17:19:38 18/11/2026] [GỬI POST] Farm HuyHVQ -> URL: https://at-sp.ssvhue.work/api/farm/visit/7 | Payload: {"type":"helpTray","zone":"silk","slot":5}
+[17:30:24 18/11/2026] [MY FARM POST] Trị sâu/bệnh mulberry tại ô #17 -> Payload: {"type":"cure","plot":17}
+[08:30:16 19/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #0 -> Payload: {"type":"harvest","plot":0}
+[08:30:16 19/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #1 -> Payload: {"type":"harvest","plot":1}
+[08:30:16 19/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #2 -> Payload: {"type":"harvest","plot":2}
+[08:30:16 19/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #3 -> Payload: {"type":"harvest","plot":3}
+[08:30:16 19/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #4 -> Payload: {"type":"harvest","plot":4}
+[08:30:17 19/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #10 -> Payload: {"type":"harvest","plot":10}
+[08:30:17 19/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #11 -> Payload: {"type":"harvest","plot":11}
+[08:30:17 19/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #12 -> Payload: {"type":"harvest","plot":12}
+[08:30:17 19/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #13 -> Payload: {"type":"harvest","plot":13}
+[08:30:17 19/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #14 -> Payload: {"type":"harvest","plot":14}
+[08:30:31 19/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #5 -> Payload: {"type":"harvest","plot":5}
+[08:30:31 19/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #6 -> Payload: {"type":"harvest","plot":6}
+[08:30:31 19/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #7 -> Payload: {"type":"harvest","plot":7}
+[08:30:31 19/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #8 -> Payload: {"type":"harvest","plot":8}
+[08:30:31 19/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #9 -> Payload: {"type":"harvest","plot":9}
+[08:31:12 19/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #15 -> Payload: {"type":"harvest","plot":15}
+[08:31:13 19/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #16 -> Payload: {"type":"harvest","plot":16}
+[08:31:13 19/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #17 -> Payload: {"type":"harvest","plot":17}
+[08:38:15 19/11/2026] [MY FARM POST] Thu máy kitchen #7 -> Payload: {"type":"collectMachine","slot":7}
+[08:38:16 19/11/2026] [MY FARM POST] Thu máy patisserie #10 -> Payload: {"type":"collectMachine","slot":10}
+[08:38:16 19/11/2026] [MY FARM POST] Thu máy grand_kitchen #11 -> Payload: {"type":"collectMachine","slot":11}
+[08:38:16 19/11/2026] [MY FARM POST] Thu máy silk_mill #12 -> Payload: {"type":"collectMachine","slot":12}
+[08:38:30 19/11/2026] [MY FARM POST] Chế biến juice tại kitchen #7 -> Payload: {"type":"craft","slot":7,"recipe":"juice"}
+[08:38:31 19/11/2026] [MY FARM POST] Chế biến banana_cake tại patisserie #10 -> Payload: {"type":"craft","slot":10,"recipe":"banana_cake"}
+[08:38:31 19/11/2026] [MY FARM POST] Chế biến crab_curry tại grand_kitchen #11 -> Payload: {"type":"craft","slot":11,"recipe":"crab_curry"}
+[08:38:31 19/11/2026] [MY FARM POST] Chế biến silk_cloth tại silk_mill #12 -> Payload: {"type":"craft","slot":12,"recipe":"silk_cloth"}
+[08:42:31 19/11/2026] [MY FARM POST] Thu hoạch cây tea #12 -> Payload: {"type":"harvestTrees","slot":12}
+[08:53:58 19/11/2026] [MY FARM POST] Thu máy bakery #0 -> Payload: {"type":"collectMachine","slot":0}
+[08:53:58 19/11/2026] [MY FARM POST] Thu máy mill #6 -> Payload: {"type":"collectMachine","slot":6}
+[08:54:13 19/11/2026] [MY FARM POST] Chế biến honey_cake tại bakery #0 -> Payload: {"type":"craft","slot":0,"recipe":"honey_cake"}
+[08:54:13 19/11/2026] [MY FARM POST] Chế biến milled_rice tại mill #6 -> Payload: {"type":"craft","slot":6,"recipe":"milled_rice"}
+[09:03:02 19/11/2026] [MY FARM POST] Thu máy dairy #1 -> Payload: {"type":"collectMachine","slot":1}
+[09:14:33 19/11/2026] [MY FARM POST] Thu máy dryer #3 -> Payload: {"type":"collectMachine","slot":3}
+[09:14:48 19/11/2026] [MY FARM POST] Chế biến dried_shrimp tại dryer #3 -> Payload: {"type":"craft","slot":3,"recipe":"dried_shrimp"}
+[09:14:48 19/11/2026] [MY FARM POST] Thu máy apothecary #13 -> Payload: {"type":"collectMachine","slot":13}
+[09:15:03 19/11/2026] [MY FARM POST] Chế biến herbal_tea tại apothecary #13 -> Payload: {"type":"craft","slot":13,"recipe":"herbal_tea"}
+[09:15:03 19/11/2026] [MY FARM POST] Thu máy roaster #14 -> Payload: {"type":"collectMachine","slot":14}
+[09:15:18 19/11/2026] [MY FARM POST] Chế biến roasted_coffee tại roaster #14 -> Payload: {"type":"craft","slot":14,"recipe":"roasted_coffee"}
+[09:16:48 19/11/2026] [MY FARM POST] Thu hoạch chicken #0 -> Payload: {"type":"collect","slot":0}
+[09:16:48 19/11/2026] [MY FARM POST] Thu hoạch chicken #1 -> Payload: {"type":"collect","slot":1}
+[09:16:48 19/11/2026] [MY FARM POST] Thu hoạch chicken #2 -> Payload: {"type":"collect","slot":2}
+[09:17:04 19/11/2026] [MY FARM POST] Cho chicken #1 ăn -> Payload: {"type":"feed","slot":1}
+[09:17:04 19/11/2026] [MY FARM POST] Cho chicken #1 uống -> Payload: {"type":"drink","slot":1}
+[09:17:19 19/11/2026] [MY FARM POST] Cho chicken #2 ăn -> Payload: {"type":"feed","slot":2}
+[09:17:19 19/11/2026] [MY FARM POST] Cho chicken #2 uống -> Payload: {"type":"drink","slot":2}
+[09:33:20 19/11/2026] [MY FARM POST] Thu máy carpenter #18 -> Payload: {"type":"collectMachine","slot":18}
+[09:33:35 19/11/2026] [MY FARM POST] Chế biến handle tại carpenter #18 -> Payload: {"type":"craft","slot":18,"recipe":"handle"}
+[09:39:35 19/11/2026] [MY FARM POST] Thu máy chocolatier #16 -> Payload: {"type":"collectMachine","slot":16}
+[09:51:05 19/11/2026] [MY FARM POST] Thu máy loom #5 -> Payload: {"type":"collectMachine","slot":5}
+[09:51:20 19/11/2026] [MY FARM POST] Thu máy juicer #2 -> Payload: {"type":"collectMachine","slot":2}
+[09:51:20 19/11/2026] [MY FARM POST] Thu máy saucer #4 -> Payload: {"type":"collectMachine","slot":4}
+[09:51:35 19/11/2026] [MY FARM POST] Chế biến orange_juice tại juicer #2 -> Payload: {"type":"craft","slot":2,"recipe":"orange_juice"}
+[09:51:36 19/11/2026] [MY FARM POST] Chế biến pumpkin_jam tại saucer #4 -> Payload: {"type":"craft","slot":4,"recipe":"pumpkin_jam"}
+[09:51:50 19/11/2026] [MY FARM POST] Chế biến sweater tại loom #5 -> Payload: {"type":"craft","slot":5,"recipe":"sweater"}
+[09:51:51 19/11/2026] [MY FARM POST] Thu máy veg_kitchen #8 -> Payload: {"type":"collectMachine","slot":8}
+[09:52:05 19/11/2026] [MY FARM POST] Chế biến shiitake_rice tại veg_kitchen #8 -> Payload: {"type":"craft","slot":8,"recipe":"shiitake_rice"}
+[10:00:36 19/11/2026] [MY FARM POST] Chăm sóc khay silk #0 -> Payload: {"type":"trayTend","zone":"silk","slot":0}
+[10:00:36 19/11/2026] [MY FARM POST] Chăm sóc khay silk #1 -> Payload: {"type":"trayTend","zone":"silk","slot":1}
+[10:00:51 19/11/2026] [MY FARM POST] Chăm sóc khay silk #2 -> Payload: {"type":"trayTend","zone":"silk","slot":2}
+[10:00:51 19/11/2026] [MY FARM POST] Chăm sóc khay silk #3 -> Payload: {"type":"trayTend","zone":"silk","slot":3}
+[10:01:06 19/11/2026] [MY FARM POST] Chăm sóc khay silk #4 -> Payload: {"type":"trayTend","zone":"silk","slot":4}
+[10:01:06 19/11/2026] [MY FARM POST] Chăm sóc khay silk #5 -> Payload: {"type":"trayTend","zone":"silk","slot":5}
+[10:07:21 19/11/2026] [MY FARM POST] Thu máy mill #6 -> Payload: {"type":"collectMachine","slot":6}
+[10:07:36 19/11/2026] [MY FARM POST] Chế biến milled_rice tại mill #6 -> Payload: {"type":"craft","slot":6,"recipe":"milled_rice"}
+[10:23:22 19/11/2026] [MY FARM POST] Thu hoạch undefined #0 -> Payload: {"type":"collectHives","slot":0}
+[10:23:52 19/11/2026] [MY FARM POST] Chế biến velvet_charm tại jeweler #17 -> Payload: {"type":"craft","slot":17,"recipe":"velvet_charm"}
+[10:28:07 19/11/2026] [MY FARM POST] Thu máy patisserie #10 -> Payload: {"type":"collectMachine","slot":10}
+[10:28:23 19/11/2026] [MY FARM POST] Chế biến lychee_tea tại patisserie #10 -> Payload: {"type":"craft","slot":10,"recipe":"lychee_tea"}
+[10:43:52 19/11/2026] [MY FARM POST] Thu máy bakery #0 -> Payload: {"type":"collectMachine","slot":0}
+[10:44:08 19/11/2026] [MY FARM POST] Chế biến honey_cake tại bakery #0 -> Payload: {"type":"craft","slot":0,"recipe":"honey_cake"}
+[10:46:22 19/11/2026] [MY FARM POST] Chăm sóc khay compost #0 -> Payload: {"type":"trayTend","zone":"compost","slot":0}
+[10:46:23 19/11/2026] [MY FARM POST] Chăm sóc khay compost #1 -> Payload: {"type":"trayTend","zone":"compost","slot":1}
+[10:46:23 19/11/2026] [MY FARM POST] Chăm sóc khay compost #2 -> Payload: {"type":"trayTend","zone":"compost","slot":2}
+[10:46:23 19/11/2026] [MY FARM POST] Chăm sóc khay compost #3 -> Payload: {"type":"trayTend","zone":"compost","slot":3}
+[10:46:23 19/11/2026] [MY FARM POST] Chăm sóc khay compost #4 -> Payload: {"type":"trayTend","zone":"compost","slot":4}
+[10:48:08 19/11/2026] [MY FARM POST] Thu hoạch duck #11 -> Payload: {"type":"collect","slot":11}
+[10:48:23 19/11/2026] [MY FARM POST] Cho duck #11 ăn -> Payload: {"type":"feed","slot":11}
+[10:48:23 19/11/2026] [MY FARM POST] Cho duck #11 uống -> Payload: {"type":"drink","slot":11}
+[11:04:08 19/11/2026] [MY FARM POST] Thu máy tailor #9 -> Payload: {"type":"collectMachine","slot":9}
+[11:04:23 19/11/2026] [MY FARM POST] Chế biến gift_box tại tailor #9 -> Payload: {"type":"craft","slot":9,"recipe":"gift_box"}
+[11:04:53 19/11/2026] [MY FARM POST] Thu máy roaster #14 -> Payload: {"type":"collectMachine","slot":14}
+[11:04:53 19/11/2026] [MY FARM POST] Thu máy carpenter #18 -> Payload: {"type":"collectMachine","slot":18}
+[11:05:08 19/11/2026] [MY FARM POST] Chế biến roasted_coffee tại roaster #14 -> Payload: {"type":"craft","slot":14,"recipe":"roasted_coffee"}
+[11:20:39 19/11/2026] [MY FARM POST] Thu máy mill #6 -> Payload: {"type":"collectMachine","slot":6}
+[11:20:54 19/11/2026] [MY FARM POST] Chế biến rice_cake tại mill #6 -> Payload: {"type":"craft","slot":6,"recipe":"rice_cake"}
+[11:41:40 19/11/2026] [MY FARM POST] Thu máy veg_kitchen #8 -> Payload: {"type":"collectMachine","slot":8}
+[12:16:41 19/11/2026] [MY FARM POST] Thu hoạch fish #0 -> Payload: {"type":"collectPond","slot":0}
+[12:16:41 19/11/2026] [MY FARM POST] Thu hoạch fish #1 -> Payload: {"type":"collectPond","slot":1}
+[12:16:41 19/11/2026] [MY FARM POST] Thu hoạch fish #2 -> Payload: {"type":"collectPond","slot":2}
+[12:17:26 19/11/2026] [MY FARM POST] Thu máy grand_kitchen #11 -> Payload: {"type":"collectMachine","slot":11}
+[12:17:26 19/11/2026] [MY FARM POST] Thu máy silk_mill #12 -> Payload: {"type":"collectMachine","slot":12}
+[12:17:41 19/11/2026] [MY FARM POST] Thu máy juicer #2 -> Payload: {"type":"collectMachine","slot":2}
+[12:17:41 19/11/2026] [MY FARM POST] Thu máy saucer #4 -> Payload: {"type":"collectMachine","slot":4}
+[12:17:41 19/11/2026] [MY FARM POST] Chế biến crab_curry tại grand_kitchen #11 -> Payload: {"type":"craft","slot":11,"recipe":"crab_curry"}
+[12:17:41 19/11/2026] [MY FARM POST] Chế biến silk tại silk_mill #12 -> Payload: {"type":"craft","slot":12,"recipe":"silk"}
+[12:17:41 19/11/2026] [MY FARM POST] Thu máy apothecary #13 -> Payload: {"type":"collectMachine","slot":13}
+[12:17:56 19/11/2026] [MY FARM POST] Chế biến orange_juice tại juicer #2 -> Payload: {"type":"craft","slot":2,"recipe":"orange_juice"}
+[12:17:56 19/11/2026] [MY FARM POST] Chế biến pumpkin_jam tại saucer #4 -> Payload: {"type":"craft","slot":4,"recipe":"pumpkin_jam"}
+[12:17:56 19/11/2026] [MY FARM POST] Chế biến herbal_tea tại apothecary #13 -> Payload: {"type":"craft","slot":13,"recipe":"herbal_tea"}
+[12:19:26 19/11/2026] [MY FARM POST] Thu hoạch cow #3 -> Payload: {"type":"collect","slot":3}
+[12:19:26 19/11/2026] [MY FARM POST] Thu hoạch cow #4 -> Payload: {"type":"collect","slot":4}
+[12:19:26 19/11/2026] [MY FARM POST] Thu hoạch cow #5 -> Payload: {"type":"collect","slot":5}
+[12:19:41 19/11/2026] [MY FARM POST] Thu hoạch chicken #1 -> Payload: {"type":"collect","slot":1}
+[12:19:41 19/11/2026] [MY FARM POST] Cho cow #3 ăn -> Payload: {"type":"feed","slot":3}
+[12:19:41 19/11/2026] [MY FARM POST] Cho cow #3 uống -> Payload: {"type":"drink","slot":3}
+[12:19:41 19/11/2026] [MY FARM POST] Cho cow #4 ăn -> Payload: {"type":"feed","slot":4}
+[12:19:42 19/11/2026] [MY FARM POST] Chế biến chocolate tại chocolatier #16 -> Payload: {"type":"craft","slot":16,"recipe":"chocolate"}
+[12:19:56 19/11/2026] [MY FARM POST] Cho chicken #1 ăn -> Payload: {"type":"feed","slot":1}
+[12:19:56 19/11/2026] [MY FARM POST] Cho chicken #1 uống -> Payload: {"type":"drink","slot":1}
+[12:19:56 19/11/2026] [MY FARM POST] Thu hoạch chicken #2 -> Payload: {"type":"collect","slot":2}
+[12:20:11 19/11/2026] [MY FARM POST] Cho chicken #2 ăn -> Payload: {"type":"feed","slot":2}
+[12:20:11 19/11/2026] [MY FARM POST] Cho chicken #2 uống -> Payload: {"type":"drink","slot":2}
+[12:20:11 19/11/2026] [MY FARM POST] Cho cow #4 uống -> Payload: {"type":"drink","slot":4}
+[12:20:26 19/11/2026] [MY FARM POST] Cho cow #5 ăn -> Payload: {"type":"feed","slot":5}
+[12:20:26 19/11/2026] [MY FARM POST] Cho cow #5 uống -> Payload: {"type":"drink","slot":5}
+[12:20:26 19/11/2026] [MY FARM POST] Chế biến cheese tại dairy #1 -> Payload: {"type":"craft","slot":1,"recipe":"cheese"}
+[12:33:42 19/11/2026] [MY FARM POST] Thu máy bakery #0 -> Payload: {"type":"collectMachine","slot":0}
+[12:33:57 19/11/2026] [MY FARM POST] Chế biến honey_cake tại bakery #0 -> Payload: {"type":"craft","slot":0,"recipe":"honey_cake"}
+[12:53:12 19/11/2026] [MY FARM POST] Trị sâu/bệnh mulberry tại ô #1 -> Payload: {"type":"cure","plot":1}
+[12:53:42 19/11/2026] [MY FARM POST] Thu máy dryer #3 -> Payload: {"type":"collectMachine","slot":3}
+[12:53:57 19/11/2026] [MY FARM POST] Chế biến dried_shrimp tại dryer #3 -> Payload: {"type":"craft","slot":3,"recipe":"dried_shrimp"}
+[12:53:58 19/11/2026] [MY FARM POST] Thu hoạch cây coconut #2 -> Payload: {"type":"harvestTrees","slot":2}
+[12:54:27 19/11/2026] [MY FARM POST] Thu máy patisserie #10 -> Payload: {"type":"collectMachine","slot":10}
+[12:54:42 19/11/2026] [MY FARM POST] Chế biến coconut_cake tại patisserie #10 -> Payload: {"type":"craft","slot":10,"recipe":"coconut_cake"}
+[12:54:42 19/11/2026] [MY FARM POST] Thu máy roaster #14 -> Payload: {"type":"collectMachine","slot":14}
+[12:54:57 19/11/2026] [MY FARM POST] Chế biến iced_coffee tại roaster #14 -> Payload: {"type":"craft","slot":14,"recipe":"iced_coffee"}
+[13:26:14 19/11/2026] [MY FARM POST] Thu hoạch chicken #0 -> Payload: {"type":"collect","slot":0}
+[13:26:29 19/11/2026] [MY FARM POST] Cho chicken #0 ăn -> Payload: {"type":"feed","slot":0}
+[13:26:29 19/11/2026] [MY FARM POST] Cho chicken #0 uống -> Payload: {"type":"drink","slot":0}
+[13:30:29 19/11/2026] [MY FARM POST] Thu máy kitchen #7 -> Payload: {"type":"collectMachine","slot":7}
+[13:30:44 19/11/2026] [MY FARM POST] Chế biến juice tại kitchen #7 -> Payload: {"type":"craft","slot":7,"recipe":"juice"}
+[13:47:00 19/11/2026] [MY FARM POST] Thu máy mill #6 -> Payload: {"type":"collectMachine","slot":6}
+[13:47:15 19/11/2026] [MY FARM POST] Chế biến milled_rice tại mill #6 -> Payload: {"type":"craft","slot":6,"recipe":"milled_rice"}
+[13:48:45 19/11/2026] [MY FARM POST] Thu hoạch khay silk #0 -> Payload: {"type":"trayCollect","zone":"silk","slot":0}
+[13:48:45 19/11/2026] [MY FARM POST] Thu hoạch khay silk #1 -> Payload: {"type":"trayCollect","zone":"silk","slot":1}
+[13:49:00 19/11/2026] [MY FARM POST] Trồng khay silk #0 -> Payload: {"type":"trayStart","zone":"silk","slot":0}
+[13:49:15 19/11/2026] [MY FARM POST] Trồng khay silk #1 -> Payload: {"type":"trayStart","zone":"silk","slot":1}
+[13:49:30 19/11/2026] [MY FARM POST] Thu hoạch khay silk #2 -> Payload: {"type":"trayCollect","zone":"silk","slot":2}
+[13:49:30 19/11/2026] [MY FARM POST] Thu hoạch khay silk #3 -> Payload: {"type":"trayCollect","zone":"silk","slot":3}
+[13:49:30 19/11/2026] [MY FARM POST] Thu hoạch khay silk #4 -> Payload: {"type":"trayCollect","zone":"silk","slot":4}
+[13:49:30 19/11/2026] [MY FARM POST] Thu hoạch khay silk #5 -> Payload: {"type":"trayCollect","zone":"silk","slot":5}
+[13:49:45 19/11/2026] [MY FARM POST] Trồng khay silk #2 -> Payload: {"type":"trayStart","zone":"silk","slot":2}
+[13:50:00 19/11/2026] [MY FARM POST] Trồng khay silk #3 -> Payload: {"type":"trayStart","zone":"silk","slot":3}
+[13:50:15 19/11/2026] [MY FARM POST] Trồng khay silk #4 -> Payload: {"type":"trayStart","zone":"silk","slot":4}
+[13:50:30 19/11/2026] [MY FARM POST] Trồng khay silk #5 -> Payload: {"type":"trayStart","zone":"silk","slot":5}
+[14:04:30 19/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #0 -> Payload: {"type":"harvest","plot":0}
+[14:04:30 19/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #2 -> Payload: {"type":"harvest","plot":2}
+[14:04:31 19/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #3 -> Payload: {"type":"harvest","plot":3}
+[14:04:31 19/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #4 -> Payload: {"type":"harvest","plot":4}
+[14:04:31 19/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #5 -> Payload: {"type":"harvest","plot":5}
+[14:04:31 19/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #12 -> Payload: {"type":"harvest","plot":12}
+[14:04:31 19/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #13 -> Payload: {"type":"harvest","plot":13}
+[14:04:32 19/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #14 -> Payload: {"type":"harvest","plot":14}
+[14:04:32 19/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #16 -> Payload: {"type":"harvest","plot":16}
+[14:04:32 19/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #17 -> Payload: {"type":"harvest","plot":17}
+[14:04:45 19/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #1 -> Payload: {"type":"harvest","plot":1}
+[14:04:45 19/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #6 -> Payload: {"type":"harvest","plot":6}
+[14:04:46 19/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #7 -> Payload: {"type":"harvest","plot":7}
+[14:04:46 19/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #8 -> Payload: {"type":"harvest","plot":8}
+[14:04:46 19/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #9 -> Payload: {"type":"harvest","plot":9}
+[14:08:00 19/11/2026] [MY FARM POST] Thu máy roaster #14 -> Payload: {"type":"collectMachine","slot":14}
+[14:08:15 19/11/2026] [MY FARM POST] Chế biến roasted_coffee tại roaster #14 -> Payload: {"type":"craft","slot":14,"recipe":"roasted_coffee"}
+[14:23:31 19/11/2026] [MY FARM POST] Thu máy bakery #0 -> Payload: {"type":"collectMachine","slot":0}
+[14:23:46 19/11/2026] [MY FARM POST] Chế biến honey_cake tại bakery #0 -> Payload: {"type":"craft","slot":0,"recipe":"honey_cake"}
+[14:35:32 19/11/2026] [MY FARM POST] Thu hoạch undefined #0 -> Payload: {"type":"collectHives","slot":0}
+[14:43:47 19/11/2026] [MY FARM POST] Thu máy loom #5 -> Payload: {"type":"collectMachine","slot":5}
+[14:43:47 19/11/2026] [MY FARM POST] Thu máy silk_mill #12 -> Payload: {"type":"collectMachine","slot":12}
+[14:44:02 19/11/2026] [MY FARM POST] Thu máy juicer #2 -> Payload: {"type":"collectMachine","slot":2}
+[14:44:02 19/11/2026] [MY FARM POST] Thu máy saucer #4 -> Payload: {"type":"collectMachine","slot":4}
+[14:44:02 19/11/2026] [MY FARM POST] Chế biến sweater tại loom #5 -> Payload: {"type":"craft","slot":5,"recipe":"sweater"}
+[14:44:03 19/11/2026] [MY FARM POST] Chế biến silk_cloth tại silk_mill #12 -> Payload: {"type":"craft","slot":12,"recipe":"silk_cloth"}
+[14:44:17 19/11/2026] [MY FARM POST] Chế biến orange_juice tại juicer #2 -> Payload: {"type":"craft","slot":2,"recipe":"orange_juice"}
+[14:44:17 19/11/2026] [MY FARM POST] Chế biến pumpkin_jam tại saucer #4 -> Payload: {"type":"craft","slot":4,"recipe":"pumpkin_jam"}
+[14:46:32 19/11/2026] [MY FARM POST] Thu máy dairy #1 -> Payload: {"type":"collectMachine","slot":1}
+[14:57:33 19/11/2026] [MY FARM POST] Thu máy jeweler #17 -> Payload: {"type":"collectMachine","slot":17}
+[15:00:18 19/11/2026] [MY FARM POST] Thu máy mill #6 -> Payload: {"type":"collectMachine","slot":6}
+[15:00:33 19/11/2026] [MY FARM POST] Chế biến milled_rice tại mill #6 -> Payload: {"type":"craft","slot":6,"recipe":"milled_rice"}
+[15:00:33 19/11/2026] [MY FARM POST] Chế biến shiitake_rice tại veg_kitchen #8 -> Payload: {"type":"craft","slot":8,"recipe":"shiitake_rice"}
+[15:18:33 19/11/2026] [MY FARM POST] Thu hoạch cây apple #0 -> Payload: {"type":"harvestTrees","slot":0}
+[15:18:34 19/11/2026] [MY FARM POST] Chăm sóc khay herb #0 -> Payload: {"type":"trayTend","zone":"herb","slot":0}
+[15:18:34 19/11/2026] [MY FARM POST] Chăm sóc khay herb #5 -> Payload: {"type":"trayTend","zone":"herb","slot":5}
+[15:18:35 19/11/2026] [MY FARM POST] Chăm sóc khay herb #6 -> Payload: {"type":"trayTend","zone":"herb","slot":6}
+[15:18:49 19/11/2026] [MY FARM POST] Chăm sóc khay herb #1 -> Payload: {"type":"trayTend","zone":"herb","slot":1}
+[15:18:49 19/11/2026] [MY FARM POST] Chăm sóc khay herb #2 -> Payload: {"type":"trayTend","zone":"herb","slot":2}
+[15:18:49 19/11/2026] [MY FARM POST] Chăm sóc khay herb #3 -> Payload: {"type":"trayTend","zone":"herb","slot":3}
+[15:18:49 19/11/2026] [MY FARM POST] Chăm sóc khay herb #4 -> Payload: {"type":"trayTend","zone":"herb","slot":4}
+[15:20:04 19/11/2026] [MY FARM POST] Thu hoạch khay compost #0 -> Payload: {"type":"trayCollect","zone":"compost","slot":0}
+[15:20:04 19/11/2026] [MY FARM POST] Thu hoạch khay compost #1 -> Payload: {"type":"trayCollect","zone":"compost","slot":1}
+[15:20:04 19/11/2026] [MY FARM POST] Thu hoạch khay compost #2 -> Payload: {"type":"trayCollect","zone":"compost","slot":2}
+[15:20:04 19/11/2026] [MY FARM POST] Thu hoạch khay compost #3 -> Payload: {"type":"trayCollect","zone":"compost","slot":3}
+[15:20:04 19/11/2026] [MY FARM POST] Thu hoạch khay compost #4 -> Payload: {"type":"trayCollect","zone":"compost","slot":4}
+[15:20:19 19/11/2026] [MY FARM POST] Trồng khay compost #0 -> Payload: {"type":"trayStart","zone":"compost","slot":0}
+[15:20:34 19/11/2026] [MY FARM POST] Thu máy apothecary #13 -> Payload: {"type":"collectMachine","slot":13}
+[15:20:34 19/11/2026] [MY FARM POST] Trồng khay compost #1 -> Payload: {"type":"trayStart","zone":"compost","slot":1}
+[15:20:49 19/11/2026] [MY FARM POST] Thu máy patisserie #10 -> Payload: {"type":"collectMachine","slot":10}
+[15:20:49 19/11/2026] [MY FARM POST] Chế biến herbal_tea tại apothecary #13 -> Payload: {"type":"craft","slot":13,"recipe":"herbal_tea"}
+[15:20:49 19/11/2026] [MY FARM POST] Trồng khay compost #2 -> Payload: {"type":"trayStart","zone":"compost","slot":2}
+[15:21:04 19/11/2026] [MY FARM POST] Chế biến lychee_tea tại patisserie #10 -> Payload: {"type":"craft","slot":10,"recipe":"lychee_tea"}
+[15:21:04 19/11/2026] [MY FARM POST] Trồng khay compost #3 -> Payload: {"type":"trayStart","zone":"compost","slot":3}
+[15:21:19 19/11/2026] [MY FARM POST] Trồng khay compost #4 -> Payload: {"type":"trayStart","zone":"compost","slot":4}
+[15:21:49 19/11/2026] [MY FARM POST] Thu hoạch sheep #6 -> Payload: {"type":"collect","slot":6}
+[15:21:49 19/11/2026] [MY FARM POST] Thu hoạch sheep #7 -> Payload: {"type":"collect","slot":7}
+[15:21:49 19/11/2026] [MY FARM POST] Thu hoạch sheep #8 -> Payload: {"type":"collect","slot":8}
+[15:21:49 19/11/2026] [MY FARM POST] Thu hoạch rabbit #9 -> Payload: {"type":"collect","slot":9}
+[15:21:49 19/11/2026] [MY FARM POST] Thu hoạch rabbit #10 -> Payload: {"type":"collect","slot":10}
+[15:22:04 19/11/2026] [MY FARM POST] Cho sheep #6 ăn -> Payload: {"type":"feed","slot":6}
+[15:22:04 19/11/2026] [MY FARM POST] Cho sheep #6 uống -> Payload: {"type":"drink","slot":6}
+[15:22:04 19/11/2026] [MY FARM POST] Cho sheep #7 ăn -> Payload: {"type":"feed","slot":7}
+[15:22:04 19/11/2026] [MY FARM POST] Cho sheep #7 uống -> Payload: {"type":"drink","slot":7}
+[15:22:05 19/11/2026] [MY FARM POST] Cho sheep #8 ăn -> Payload: {"type":"feed","slot":8}
+[15:22:05 19/11/2026] [MY FARM POST] Cho sheep #8 uống -> Payload: {"type":"drink","slot":8}
+[15:22:05 19/11/2026] [MY FARM POST] Cho rabbit #9 uống -> Payload: {"type":"drink","slot":9}
+[15:22:05 19/11/2026] [MY FARM POST] Thu hoạch duck #11 -> Payload: {"type":"collect","slot":11}
+[15:22:19 19/11/2026] [MY FARM POST] Cho rabbit #9 ăn -> Payload: {"type":"feed","slot":9}
+[15:22:19 19/11/2026] [MY FARM POST] Cho rabbit #10 ăn -> Payload: {"type":"feed","slot":10}
+[15:22:19 19/11/2026] [MY FARM POST] Cho rabbit #10 uống -> Payload: {"type":"drink","slot":10}
+[15:22:34 19/11/2026] [MY FARM POST] Thu hoạch chicken #1 -> Payload: {"type":"collect","slot":1}
+[15:22:34 19/11/2026] [MY FARM POST] Thu hoạch pig #13 -> Payload: {"type":"collect","slot":13}
+[15:22:49 19/11/2026] [MY FARM POST] Cho chicken #1 ăn -> Payload: {"type":"feed","slot":1}
+[15:22:49 19/11/2026] [MY FARM POST] Cho chicken #1 uống -> Payload: {"type":"drink","slot":1}
+[15:22:49 19/11/2026] [MY FARM POST] Thu hoạch chicken #2 -> Payload: {"type":"collect","slot":2}
+[15:23:04 19/11/2026] [MY FARM POST] Cho chicken #2 ăn -> Payload: {"type":"feed","slot":2}
+[15:23:04 19/11/2026] [MY FARM POST] Cho chicken #2 uống -> Payload: {"type":"drink","slot":2}
+[15:23:19 19/11/2026] [MY FARM POST] Cho pig #13 ăn -> Payload: {"type":"feed","slot":13}
+[15:23:19 19/11/2026] [MY FARM POST] Cho pig #13 uống -> Payload: {"type":"drink","slot":13}
+[15:23:34 19/11/2026] [MY FARM POST] Thu máy chocolatier #16 -> Payload: {"type":"collectMachine","slot":16}
+[15:24:10 19/11/2026] [GỬI POST] Farm ThangPV -> URL: https://at-sp.ssvhue.work/api/farm/visit/8 | Payload: {"type":"helpTray","zone":"forest","slot":0}
+[15:24:13 19/11/2026] [GỬI POST] Farm ThangPV -> URL: https://at-sp.ssvhue.work/api/farm/visit/8 | Payload: {"type":"helpTray","zone":"forest","slot":4}
+[15:24:14 19/11/2026] [GỬI POST] Farm ThangPV -> URL: https://at-sp.ssvhue.work/api/farm/visit/8 | Payload: {"type":"helpTray","zone":"legend","slot":3}
+[15:39:37 19/11/2026] [GỬI POST] Farm HuyHVQ -> URL: https://at-sp.ssvhue.work/api/farm/visit/7 | Payload: {"type":"helpTray","zone":"forest","slot":0}
+[15:39:39 19/11/2026] [GỬI POST] Farm HuyHVQ -> URL: https://at-sp.ssvhue.work/api/farm/visit/7 | Payload: {"type":"helpTray","zone":"forest","slot":1}
+[15:39:41 19/11/2026] [GỬI POST] Farm HuyHVQ -> URL: https://at-sp.ssvhue.work/api/farm/visit/7 | Payload: {"type":"helpTray","zone":"forest","slot":2}
+[15:39:43 19/11/2026] [GỬI POST] Farm HuyHVQ -> URL: https://at-sp.ssvhue.work/api/farm/visit/7 | Payload: {"type":"helpTray","zone":"forest","slot":5}
+[15:45:03 19/11/2026] [MY FARM POST] Thu hoạch cây durian #13 -> Payload: {"type":"harvestTrees","slot":13}
+[15:52:54 19/11/2026] [GỬI POST] Farm SangTT -> URL: https://at-sp.ssvhue.work/api/farm/visit/18 | Payload: {"type":"helpTray","zone":"silk","slot":0}
+[15:52:57 19/11/2026] [GỬI POST] Farm SangTT -> URL: https://at-sp.ssvhue.work/api/farm/visit/18 | Payload: {"type":"helpTray","zone":"silk","slot":1}
+[15:52:58 19/11/2026] [GỬI POST] Farm SangTT -> URL: https://at-sp.ssvhue.work/api/farm/visit/18 | Payload: {"type":"helpTray","zone":"silk","slot":2}
+[15:56:49 19/11/2026] [MY FARM POST] Thu máy grand_kitchen #11 -> Payload: {"type":"collectMachine","slot":11}
+[15:57:04 19/11/2026] [MY FARM POST] Chế biến sandwich tại grand_kitchen #11 -> Payload: {"type":"craft","slot":11,"recipe":"sandwich"}
+[15:57:49 19/11/2026] [MY FARM POST] Thu máy roaster #14 -> Payload: {"type":"collectMachine","slot":14}
+[15:58:04 19/11/2026] [MY FARM POST] Chế biến roasted_coffee tại roaster #14 -> Payload: {"type":"craft","slot":14,"recipe":"roasted_coffee"}
+[16:07:54 19/11/2026] [GỬI POST] Farm ThaiNQ -> URL: https://at-sp.ssvhue.work/api/farm/visit/3 | Payload: {"type":"helpTray","zone":"silk","slot":0}
+[16:07:56 19/11/2026] [GỬI POST] Farm ThaiNQ -> URL: https://at-sp.ssvhue.work/api/farm/visit/3 | Payload: {"type":"helpTray","zone":"silk","slot":1}
+[16:07:59 19/11/2026] [GỬI POST] Farm ThaiNQ -> URL: https://at-sp.ssvhue.work/api/farm/visit/3 | Payload: {"type":"helpTray","zone":"silk","slot":2}
+[16:08:02 19/11/2026] [GỬI POST] Farm ThaiNQ -> URL: https://at-sp.ssvhue.work/api/farm/visit/3 | Payload: {"type":"helpTray","zone":"silk","slot":3}
+[16:08:04 19/11/2026] [GỬI POST] Farm ThaiNQ -> URL: https://at-sp.ssvhue.work/api/farm/visit/3 | Payload: {"type":"helpTray","zone":"silk","slot":4}
+[16:08:06 19/11/2026] [GỬI POST] Farm ThaiNQ -> URL: https://at-sp.ssvhue.work/api/farm/visit/3 | Payload: {"type":"helpTray","zone":"silk","slot":5}
+[16:13:23 19/11/2026] [MY FARM POST] Thu máy bakery #0 -> Payload: {"type":"collectMachine","slot":0}
+[16:13:38 19/11/2026] [MY FARM POST] Chế biến honey_cake tại bakery #0 -> Payload: {"type":"craft","slot":0,"recipe":"honey_cake"}
+[16:13:38 19/11/2026] [MY FARM POST] Thu máy mill #6 -> Payload: {"type":"collectMachine","slot":6}
+[16:13:53 19/11/2026] [MY FARM POST] Chế biến milled_rice tại mill #6 -> Payload: {"type":"craft","slot":6,"recipe":"milled_rice"}
+[16:15:08 19/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #10 -> Payload: {"type":"harvest","plot":10}
+[16:15:08 19/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #11 -> Payload: {"type":"harvest","plot":11}
+[16:15:08 19/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #15 -> Payload: {"type":"harvest","plot":15}
+[16:25:28 19/11/2026] [GỬI POST] Farm ThanhND -> URL: https://at-sp.ssvhue.work/api/farm/visit/10 | Payload: {"type":"helpTray","zone":"herb","slot":4}
+[16:28:54 19/11/2026] [MY FARM POST] Thu hoạch chicken #0 -> Payload: {"type":"collect","slot":0}
+[16:29:08 19/11/2026] [MY FARM POST] Cho chicken #0 ăn -> Payload: {"type":"feed","slot":0}
+[16:29:09 19/11/2026] [MY FARM POST] Cho chicken #0 uống -> Payload: {"type":"drink","slot":0}
+[16:29:14 19/11/2026] [GỬI POST] Farm ThuyNT -> URL: https://at-sp.ssvhue.work/api/farm/visit/17 | Payload: {"type":"helpTray","zone":"herb","slot":0}
+[16:29:17 19/11/2026] [GỬI POST] Farm ThuyNT -> URL: https://at-sp.ssvhue.work/api/farm/visit/17 | Payload: {"type":"helpTray","zone":"herb","slot":1}
+[16:29:19 19/11/2026] [GỬI POST] Farm ThuyNT -> URL: https://at-sp.ssvhue.work/api/farm/visit/17 | Payload: {"type":"helpTray","zone":"herb","slot":2}
+[16:29:21 19/11/2026] [GỬI POST] Farm ThuyNT -> URL: https://at-sp.ssvhue.work/api/farm/visit/17 | Payload: {"type":"helpTray","zone":"herb","slot":3}
+[16:29:23 19/11/2026] [GỬI POST] Farm ThuyNT -> URL: https://at-sp.ssvhue.work/api/farm/visit/17 | Payload: {"type":"helpTray","zone":"herb","slot":4}
+[16:29:24 19/11/2026] [GỬI POST] Farm ThuyNT -> URL: https://at-sp.ssvhue.work/api/farm/visit/17 | Payload: {"type":"helpTray","zone":"herb","slot":5}
+[16:29:26 19/11/2026] [GỬI POST] Farm ThuyNT -> URL: https://at-sp.ssvhue.work/api/farm/visit/17 | Payload: {"type":"helpTray","zone":"herb","slot":6}
+[16:32:58 19/11/2026] [MY FARM POST] Thu máy dryer #3 -> Payload: {"type":"collectMachine","slot":3}
+[16:33:13 19/11/2026] [MY FARM POST] Chế biến dried_shrimp tại dryer #3 -> Payload: {"type":"craft","slot":3,"recipe":"dried_shrimp"}
+[16:34:02 19/11/2026] [GỬI POST] Farm ThuyNT -> URL: https://at-sp.ssvhue.work/api/farm/visit/17 | Payload: {"type":"helpTray","zone":"compost","slot":0}
+[16:34:05 19/11/2026] [GỬI POST] Farm ThuyNT -> URL: https://at-sp.ssvhue.work/api/farm/visit/17 | Payload: {"type":"helpTray","zone":"compost","slot":1}
+[16:34:06 19/11/2026] [GỬI POST] Farm ThuyNT -> URL: https://at-sp.ssvhue.work/api/farm/visit/17 | Payload: {"type":"helpTray","zone":"compost","slot":2}
+[16:34:08 19/11/2026] [GỬI POST] Farm ThuyNT -> URL: https://at-sp.ssvhue.work/api/farm/visit/17 | Payload: {"type":"helpTray","zone":"compost","slot":3}
+[16:34:09 19/11/2026] [GỬI POST] Farm ThuyNT -> URL: https://at-sp.ssvhue.work/api/farm/visit/17 | Payload: {"type":"helpTray","zone":"compost","slot":4}
+[16:35:46 19/11/2026] [GỬI POST] Farm HoanPV -> URL: https://at-sp.ssvhue.work/api/farm/visit/12 | Payload: {"type":"helpTray","zone":"forest","slot":4}
+[16:36:01 19/11/2026] [GỬI POST] Farm HoanPV -> URL: https://at-sp.ssvhue.work/api/farm/visit/12 | Payload: {"type":"helpTray","zone":"silk","slot":0}
+[16:36:04 19/11/2026] [GỬI POST] Farm HoanPV -> URL: https://at-sp.ssvhue.work/api/farm/visit/12 | Payload: {"type":"helpTray","zone":"silk","slot":1}
+[16:36:05 19/11/2026] [GỬI POST] Farm HoanPV -> URL: https://at-sp.ssvhue.work/api/farm/visit/12 | Payload: {"type":"helpTray","zone":"silk","slot":2}
+[16:36:07 19/11/2026] [GỬI POST] Farm HoanPV -> URL: https://at-sp.ssvhue.work/api/farm/visit/12 | Payload: {"type":"helpTray","zone":"silk","slot":3}
+[16:36:10 19/11/2026] [GỬI POST] Farm HoanPV -> URL: https://at-sp.ssvhue.work/api/farm/visit/12 | Payload: {"type":"helpTray","zone":"silk","slot":4}
+[16:36:12 19/11/2026] [GỬI POST] Farm HoanPV -> URL: https://at-sp.ssvhue.work/api/farm/visit/12 | Payload: {"type":"helpTray","zone":"silk","slot":5}
+[16:39:47 19/11/2026] [GỬI POST] Farm SinhNT -> URL: https://at-sp.ssvhue.work/api/farm/visit/1 | Payload: {"type":"helpTray","zone":"silk","slot":0}
+[16:39:48 19/11/2026] [GỬI POST] Farm SinhNT -> URL: https://at-sp.ssvhue.work/api/farm/visit/1 | Payload: {"type":"helpTray","zone":"silk","slot":1}
+[16:39:50 19/11/2026] [GỬI POST] Farm SinhNT -> URL: https://at-sp.ssvhue.work/api/farm/visit/1 | Payload: {"type":"helpTray","zone":"silk","slot":2}
+[16:39:52 19/11/2026] [GỬI POST] Farm SinhNT -> URL: https://at-sp.ssvhue.work/api/farm/visit/1 | Payload: {"type":"helpTray","zone":"silk","slot":3}
+[16:39:54 19/11/2026] [GỬI POST] Farm SinhNT -> URL: https://at-sp.ssvhue.work/api/farm/visit/1 | Payload: {"type":"helpTray","zone":"silk","slot":4}
+[16:39:56 19/11/2026] [GỬI POST] Farm SinhNT -> URL: https://at-sp.ssvhue.work/api/farm/visit/1 | Payload: {"type":"helpTray","zone":"silk","slot":5}
+[16:45:17 19/11/2026] [GỬI POST] Farm QuynhTTN -> URL: https://at-sp.ssvhue.work/api/farm/visit/16 | Payload: {"type":"helpTray","zone":"herb","slot":0}
+[16:45:20 19/11/2026] [GỬI POST] Farm QuynhTTN -> URL: https://at-sp.ssvhue.work/api/farm/visit/16 | Payload: {"type":"helpTray","zone":"herb","slot":1}
+[16:45:23 19/11/2026] [GỬI POST] Farm QuynhTTN -> URL: https://at-sp.ssvhue.work/api/farm/visit/16 | Payload: {"type":"helpTray","zone":"herb","slot":2}
+[16:45:25 19/11/2026] [GỬI POST] Farm QuynhTTN -> URL: https://at-sp.ssvhue.work/api/farm/visit/16 | Payload: {"type":"helpTray","zone":"herb","slot":3}
+[16:45:28 19/11/2026] [GỬI POST] Farm QuynhTTN -> URL: https://at-sp.ssvhue.work/api/farm/visit/16 | Payload: {"type":"helpTray","zone":"herb","slot":4}
+[16:45:30 19/11/2026] [GỬI POST] Farm QuynhTTN -> URL: https://at-sp.ssvhue.work/api/farm/visit/16 | Payload: {"type":"helpTray","zone":"herb","slot":5}
+[16:45:34 19/11/2026] [GỬI POST] Farm NhanVP -> URL: https://at-sp.ssvhue.work/api/farm/visit/13 | Payload: {"type":"helpTray","zone":"compost","slot":0}
+[16:45:36 19/11/2026] [GỬI POST] Farm NhanVP -> URL: https://at-sp.ssvhue.work/api/farm/visit/13 | Payload: {"type":"helpTray","zone":"compost","slot":1}
+[16:45:38 19/11/2026] [GỬI POST] Farm NhanVP -> URL: https://at-sp.ssvhue.work/api/farm/visit/13 | Payload: {"type":"helpTray","zone":"compost","slot":2}
+[16:45:41 19/11/2026] [GỬI POST] Farm NhanVP -> URL: https://at-sp.ssvhue.work/api/farm/visit/13 | Payload: {"type":"helpTray","zone":"compost","slot":3}
+[16:45:44 19/11/2026] [GỬI POST] Farm NhanVP -> URL: https://at-sp.ssvhue.work/api/farm/visit/13 | Payload: {"type":"helpTray","zone":"compost","slot":4}
+[16:50:01 19/11/2026] [MY FARM POST] Thu máy veg_kitchen #8 -> Payload: {"type":"collectMachine","slot":8}
+[16:50:16 19/11/2026] [MY FARM POST] Chế biến shiitake_rice tại veg_kitchen #8 -> Payload: {"type":"craft","slot":8,"recipe":"shiitake_rice"}
+[16:50:31 19/11/2026] [MY FARM POST] Thu hoạch crab #3 -> Payload: {"type":"collectPond","slot":3}
+[16:50:31 19/11/2026] [MY FARM POST] Thu hoạch crab #4 -> Payload: {"type":"collectPond","slot":4}
+[16:50:31 19/11/2026] [MY FARM POST] Thu hoạch crab #5 -> Payload: {"type":"collectPond","slot":5}
+[16:53:01 19/11/2026] [MY FARM POST] Thu hoạch ostrich #12 -> Payload: {"type":"collect","slot":12}
+[16:53:16 19/11/2026] [MY FARM POST] Cho ostrich #12 ăn -> Payload: {"type":"feed","slot":12}
+[16:53:16 19/11/2026] [MY FARM POST] Cho ostrich #12 uống -> Payload: {"type":"drink","slot":12}
+[17:05:34 19/11/2026] [GỬI POST] Farm ThangPV -> URL: https://at-sp.ssvhue.work/api/farm/visit/8 | Payload: {"type":"helpTray","zone":"herb","slot":0}
+[17:05:36 19/11/2026] [GỬI POST] Farm ThangPV -> URL: https://at-sp.ssvhue.work/api/farm/visit/8 | Payload: {"type":"helpTray","zone":"herb","slot":1}
+[17:05:38 19/11/2026] [GỬI POST] Farm ThangPV -> URL: https://at-sp.ssvhue.work/api/farm/visit/8 | Payload: {"type":"helpTray","zone":"herb","slot":2}
+[17:05:39 19/11/2026] [GỬI POST] Farm ThangPV -> URL: https://at-sp.ssvhue.work/api/farm/visit/8 | Payload: {"type":"helpTray","zone":"herb","slot":3}
+[17:05:42 19/11/2026] [GỬI POST] Farm ThangPV -> URL: https://at-sp.ssvhue.work/api/farm/visit/8 | Payload: {"type":"helpTray","zone":"herb","slot":4}
+[17:05:45 19/11/2026] [GỬI POST] Farm ThangPV -> URL: https://at-sp.ssvhue.work/api/farm/visit/8 | Payload: {"type":"helpTray","zone":"herb","slot":5}
+[17:05:46 19/11/2026] [GỬI POST] Farm ThangPV -> URL: https://at-sp.ssvhue.work/api/farm/visit/8 | Payload: {"type":"helpTray","zone":"herb","slot":6}
+[17:09:19 19/11/2026] [MY FARM POST] Thu máy tailor #9 -> Payload: {"type":"collectMachine","slot":9}
+[17:09:34 19/11/2026] [MY FARM POST] Chế biến gift_box tại tailor #9 -> Payload: {"type":"craft","slot":9,"recipe":"gift_box"}
+[17:10:19 19/11/2026] [MY FARM POST] Thu máy juicer #2 -> Payload: {"type":"collectMachine","slot":2}
+[17:10:20 19/11/2026] [MY FARM POST] Thu máy saucer #4 -> Payload: {"type":"collectMachine","slot":4}
+[17:10:35 19/11/2026] [MY FARM POST] Chế biến orange_juice tại juicer #2 -> Payload: {"type":"craft","slot":2,"recipe":"orange_juice"}
+[17:10:35 19/11/2026] [MY FARM POST] Chế biến pumpkin_jam tại saucer #4 -> Payload: {"type":"craft","slot":4,"recipe":"pumpkin_jam"}
+[17:19:55 19/11/2026] [GỬI POST] Farm HoanPV -> URL: https://at-sp.ssvhue.work/api/farm/visit/12 | Payload: {"type":"helpTray","zone":"herb","slot":0}
+[17:19:58 19/11/2026] [GỬI POST] Farm HoanPV -> URL: https://at-sp.ssvhue.work/api/farm/visit/12 | Payload: {"type":"helpTray","zone":"herb","slot":1}
+[17:19:59 19/11/2026] [GỬI POST] Farm HoanPV -> URL: https://at-sp.ssvhue.work/api/farm/visit/12 | Payload: {"type":"helpTray","zone":"herb","slot":2}
+[17:20:01 19/11/2026] [GỬI POST] Farm HoanPV -> URL: https://at-sp.ssvhue.work/api/farm/visit/12 | Payload: {"type":"helpTray","zone":"herb","slot":3}
+[17:20:04 19/11/2026] [GỬI POST] Farm HoanPV -> URL: https://at-sp.ssvhue.work/api/farm/visit/12 | Payload: {"type":"helpTray","zone":"herb","slot":4}
+[17:20:06 19/11/2026] [GỬI POST] Farm HoanPV -> URL: https://at-sp.ssvhue.work/api/farm/visit/12 | Payload: {"type":"helpTray","zone":"herb","slot":5}
+[17:20:07 19/11/2026] [GỬI POST] Farm HoanPV -> URL: https://at-sp.ssvhue.work/api/farm/visit/12 | Payload: {"type":"helpTray","zone":"herb","slot":6}
+[17:20:59 19/11/2026] [GỬI POST] Farm KhanhLQ -> URL: https://at-sp.ssvhue.work/api/farm/visit/9 | Payload: {"type":"helpTray","zone":"silk","slot":0}
+[17:21:00 19/11/2026] [GỬI POST] Farm KhanhLQ -> URL: https://at-sp.ssvhue.work/api/farm/visit/9 | Payload: {"type":"helpTray","zone":"silk","slot":1}
+[17:21:02 19/11/2026] [GỬI POST] Farm KhanhLQ -> URL: https://at-sp.ssvhue.work/api/farm/visit/9 | Payload: {"type":"helpTray","zone":"silk","slot":2}
+[17:21:03 19/11/2026] [GỬI POST] Farm KhanhLQ -> URL: https://at-sp.ssvhue.work/api/farm/visit/9 | Payload: {"type":"helpTray","zone":"silk","slot":3}
+[17:21:05 19/11/2026] [GỬI POST] Farm KhanhLQ -> URL: https://at-sp.ssvhue.work/api/farm/visit/9 | Payload: {"type":"helpTray","zone":"silk","slot":4}
+[17:21:08 19/11/2026] [GỬI POST] Farm KhanhLQ -> URL: https://at-sp.ssvhue.work/api/farm/visit/9 | Payload: {"type":"helpTray","zone":"silk","slot":5}
+[17:21:28 19/11/2026] [GỬI POST] Farm KhanhLQ -> URL: https://at-sp.ssvhue.work/api/farm/visit/9 | Payload: {"type":"helpTray","zone":"forest","slot":5}
+[17:26:54 19/11/2026] [MY FARM POST] Thu máy mill #6 -> Payload: {"type":"collectMachine","slot":6}
+[17:27:01 19/11/2026] [MY FARM POST] Chế biến milled_rice tại mill #6 -> Payload: {"type":"craft","slot":6,"recipe":"milled_rice"}
+[17:31:19 19/11/2026] [GỬI POST] Farm NhiTTY -> URL: https://at-sp.ssvhue.work/api/farm/visit/20 | Payload: {"bed":"flower","plot":0,"type":"water"}
+[08:41:59 20/11/2026] [GỬI POST] Farm ThaiNQ -> URL: https://at-sp.ssvhue.work/api/farm/visit/3 | Payload: {"type":"helpTray","zone":"silk","slot":0}
+[08:42:01 20/11/2026] [GỬI POST] Farm ThaiNQ -> URL: https://at-sp.ssvhue.work/api/farm/visit/3 | Payload: {"type":"helpTray","zone":"silk","slot":1}
+[08:42:04 20/11/2026] [GỬI POST] Farm ThaiNQ -> URL: https://at-sp.ssvhue.work/api/farm/visit/3 | Payload: {"type":"helpTray","zone":"silk","slot":2}
+[08:42:07 20/11/2026] [GỬI POST] Farm ThaiNQ -> URL: https://at-sp.ssvhue.work/api/farm/visit/3 | Payload: {"type":"helpTray","zone":"silk","slot":3}
+[08:42:09 20/11/2026] [GỬI POST] Farm ThaiNQ -> URL: https://at-sp.ssvhue.work/api/farm/visit/3 | Payload: {"type":"helpTray","zone":"silk","slot":4}
+[08:42:12 20/11/2026] [GỬI POST] Farm ThaiNQ -> URL: https://at-sp.ssvhue.work/api/farm/visit/3 | Payload: {"type":"helpTray","zone":"silk","slot":5}
+[08:44:34 20/11/2026] [GỬI POST] Farm SinhNT -> URL: https://at-sp.ssvhue.work/api/farm/visit/1 | Payload: {"type":"helpTray","zone":"herb","slot":0}
+[08:44:36 20/11/2026] [GỬI POST] Farm SinhNT -> URL: https://at-sp.ssvhue.work/api/farm/visit/1 | Payload: {"type":"helpTray","zone":"herb","slot":1}
+[08:44:39 20/11/2026] [GỬI POST] Farm SinhNT -> URL: https://at-sp.ssvhue.work/api/farm/visit/1 | Payload: {"type":"helpTray","zone":"herb","slot":2}
+[08:44:42 20/11/2026] [GỬI POST] Farm SinhNT -> URL: https://at-sp.ssvhue.work/api/farm/visit/1 | Payload: {"type":"helpTray","zone":"herb","slot":3}
+[08:44:45 20/11/2026] [GỬI POST] Farm SinhNT -> URL: https://at-sp.ssvhue.work/api/farm/visit/1 | Payload: {"type":"helpTray","zone":"herb","slot":4}
+[08:44:46 20/11/2026] [GỬI POST] Farm SinhNT -> URL: https://at-sp.ssvhue.work/api/farm/visit/1 | Payload: {"type":"helpTray","zone":"herb","slot":5}
+[08:44:48 20/11/2026] [GỬI POST] Farm SinhNT -> URL: https://at-sp.ssvhue.work/api/farm/visit/1 | Payload: {"type":"helpTray","zone":"herb","slot":6}
+[08:44:51 20/11/2026] [GỬI POST] Farm ThuyNT -> URL: https://at-sp.ssvhue.work/api/farm/visit/17 | Payload: {"type":"helpTray","zone":"herb","slot":0}
+[08:45:25 20/11/2026] [GỬI POST] Farm KhanhLQ -> URL: https://at-sp.ssvhue.work/api/farm/visit/9 | Payload: {"type":"helpTray","zone":"herb","slot":0}
+[08:45:27 20/11/2026] [GỬI POST] Farm KhanhLQ -> URL: https://at-sp.ssvhue.work/api/farm/visit/9 | Payload: {"type":"helpTray","zone":"herb","slot":1}
+[08:45:29 20/11/2026] [GỬI POST] Farm KhanhLQ -> URL: https://at-sp.ssvhue.work/api/farm/visit/9 | Payload: {"type":"helpTray","zone":"herb","slot":2}
+[08:45:31 20/11/2026] [GỬI POST] Farm KhanhLQ -> URL: https://at-sp.ssvhue.work/api/farm/visit/9 | Payload: {"type":"helpTray","zone":"herb","slot":3}
+[08:45:33 20/11/2026] [GỬI POST] Farm KhanhLQ -> URL: https://at-sp.ssvhue.work/api/farm/visit/9 | Payload: {"type":"helpTray","zone":"herb","slot":4}
+[08:45:35 20/11/2026] [GỬI POST] Farm KhanhLQ -> URL: https://at-sp.ssvhue.work/api/farm/visit/9 | Payload: {"type":"helpTray","zone":"herb","slot":5}
+[08:45:38 20/11/2026] [GỬI POST] Farm KhanhLQ -> URL: https://at-sp.ssvhue.work/api/farm/visit/9 | Payload: {"type":"helpTray","zone":"herb","slot":6}
+[08:46:12 20/11/2026] [MY FARM POST] Thu hoạch chicken #0 -> Payload: {"type":"collect","slot":0}
+[08:46:12 20/11/2026] [MY FARM POST] Thu hoạch chicken #1 -> Payload: {"type":"collect","slot":1}
+[08:46:12 20/11/2026] [MY FARM POST] Thu hoạch chicken #2 -> Payload: {"type":"collect","slot":2}
+[08:46:27 20/11/2026] [MY FARM POST] Cho chicken #0 ăn -> Payload: {"type":"feed","slot":0}
+[08:46:27 20/11/2026] [MY FARM POST] Cho chicken #0 uống -> Payload: {"type":"drink","slot":0}
+[08:46:27 20/11/2026] [MY FARM POST] Cho chicken #1 ăn -> Payload: {"type":"feed","slot":1}
+[08:46:28 20/11/2026] [MY FARM POST] Cho chicken #1 uống -> Payload: {"type":"drink","slot":1}
+[08:46:42 20/11/2026] [MY FARM POST] Cho chicken #2 ăn -> Payload: {"type":"feed","slot":2}
+[08:46:42 20/11/2026] [MY FARM POST] Cho chicken #2 uống -> Payload: {"type":"drink","slot":2}
+[08:46:42 20/11/2026] [MY FARM POST] Thu máy bakery #0 -> Payload: {"type":"collectMachine","slot":0}
+[08:46:43 20/11/2026] [MY FARM POST] Thu máy dryer #3 -> Payload: {"type":"collectMachine","slot":3}
+[08:46:57 20/11/2026] [MY FARM POST] Chế biến honey_cake tại bakery #0 -> Payload: {"type":"craft","slot":0,"recipe":"honey_cake"}
+[08:46:57 20/11/2026] [MY FARM POST] Chế biến dried_shrimp tại dryer #3 -> Payload: {"type":"craft","slot":3,"recipe":"dried_shrimp"}
+[08:46:57 20/11/2026] [MY FARM POST] Thu máy patisserie #10 -> Payload: {"type":"collectMachine","slot":10}
+[08:46:58 20/11/2026] [MY FARM POST] Thu máy apothecary #13 -> Payload: {"type":"collectMachine","slot":13}
+[08:46:58 20/11/2026] [MY FARM POST] Thu máy roaster #14 -> Payload: {"type":"collectMachine","slot":14}
+[08:47:12 20/11/2026] [MY FARM POST] Chế biến lychee_tea tại patisserie #10 -> Payload: {"type":"craft","slot":10,"recipe":"lychee_tea"}
+[08:47:12 20/11/2026] [MY FARM POST] Chế biến herbal_tea tại apothecary #13 -> Payload: {"type":"craft","slot":13,"recipe":"herbal_tea"}
+[08:47:12 20/11/2026] [MY FARM POST] Chế biến roasted_coffee tại roaster #14 -> Payload: {"type":"craft","slot":14,"recipe":"roasted_coffee"}
+[08:47:13 20/11/2026] [MY FARM POST] Thu máy chocolatier #16 -> Payload: {"type":"collectMachine","slot":16}
+[08:47:13 20/11/2026] [MY FARM POST] Thu máy jeweler #17 -> Payload: {"type":"collectMachine","slot":17}
+[08:47:27 20/11/2026] [MY FARM POST] Chế biến velvet_charm tại jeweler #17 -> Payload: {"type":"craft","slot":17,"recipe":"velvet_charm"}
+[08:54:32 20/11/2026] [GỬI POST] Farm ThangPV -> URL: https://at-sp.ssvhue.work/api/farm/visit/8 | Payload: {"type":"helpTray","zone":"forest","slot":0}
+[08:54:35 20/11/2026] [GỬI POST] Farm ThangPV -> URL: https://at-sp.ssvhue.work/api/farm/visit/8 | Payload: {"type":"helpTray","zone":"forest","slot":4}
+[08:56:03 20/11/2026] [GỬI POST] Farm ThanhND -> URL: https://at-sp.ssvhue.work/api/farm/visit/10 | Payload: {"type":"helpTray","zone":"forest","slot":0}
+[08:56:04 20/11/2026] [GỬI POST] Farm ThanhND -> URL: https://at-sp.ssvhue.work/api/farm/visit/10 | Payload: {"type":"helpTray","zone":"forest","slot":1}
+[08:56:07 20/11/2026] [GỬI POST] Farm ThanhND -> URL: https://at-sp.ssvhue.work/api/farm/visit/10 | Payload: {"type":"helpTray","zone":"forest","slot":2}
+[08:56:09 20/11/2026] [GỬI POST] Farm ThanhND -> URL: https://at-sp.ssvhue.work/api/farm/visit/10 | Payload: {"type":"helpTray","zone":"forest","slot":3}
+[08:56:10 20/11/2026] [GỬI POST] Farm ThanhND -> URL: https://at-sp.ssvhue.work/api/farm/visit/10 | Payload: {"type":"helpTray","zone":"forest","slot":5}
+[09:01:49 20/11/2026] [MY FARM POST] Thu hoạch cây tea #12 -> Payload: {"type":"harvestTrees","slot":12}
+[09:23:03 20/11/2026] [MY FARM POST] Thu máy loom #5 -> Payload: {"type":"collectMachine","slot":5}
+[09:23:04 20/11/2026] [MY FARM POST] Thu máy silk_mill #12 -> Payload: {"type":"collectMachine","slot":12}
+[09:23:18 20/11/2026] [MY FARM POST] Chế biến sweater tại loom #5 -> Payload: {"type":"craft","slot":5,"recipe":"sweater"}
+[09:23:19 20/11/2026] [MY FARM POST] Chế biến silk tại silk_mill #12 -> Payload: {"type":"craft","slot":12,"recipe":"silk"}
+[09:31:29 20/11/2026] [MY FARM POST] Thu máy mill #6 -> Payload: {"type":"collectMachine","slot":6}
+[09:32:03 20/11/2026] [MY FARM POST] Chế biến rice_cake tại mill #6 -> Payload: {"type":"craft","slot":6,"recipe":"rice_cake"}
+[09:32:46 20/11/2026] [MY FARM POST] Chăm sóc khay silk #0 -> Payload: {"type":"trayTend","zone":"silk","slot":0}
+[09:32:46 20/11/2026] [MY FARM POST] Chăm sóc khay silk #1 -> Payload: {"type":"trayTend","zone":"silk","slot":1}
+[09:32:46 20/11/2026] [MY FARM POST] Chăm sóc khay silk #2 -> Payload: {"type":"trayTend","zone":"silk","slot":2}
+[09:32:47 20/11/2026] [MY FARM POST] Chăm sóc khay silk #3 -> Payload: {"type":"trayTend","zone":"silk","slot":3}
+[09:32:47 20/11/2026] [MY FARM POST] Chăm sóc khay silk #4 -> Payload: {"type":"trayTend","zone":"silk","slot":4}
+[09:33:01 20/11/2026] [MY FARM POST] Chăm sóc khay silk #5 -> Payload: {"type":"trayTend","zone":"silk","slot":5}
+[09:33:16 20/11/2026] [MY FARM POST] Thu hoạch khay forest #0 -> Payload: {"type":"trayCollect","zone":"forest","slot":0}
+[09:33:16 20/11/2026] [MY FARM POST] Thu hoạch khay forest #1 -> Payload: {"type":"trayCollect","zone":"forest","slot":1}
+[09:33:16 20/11/2026] [MY FARM POST] Thu hoạch khay forest #2 -> Payload: {"type":"trayCollect","zone":"forest","slot":2}
+[09:33:30 20/11/2026] [MY FARM POST] Chế biến handle tại carpenter #18 -> Payload: {"type":"craft","slot":18,"recipe":"handle"}
+[09:33:31 20/11/2026] [MY FARM POST] Trồng khay forest #0 -> Payload: {"type":"trayStart","zone":"forest","slot":0}
+[09:33:46 20/11/2026] [MY FARM POST] Trồng khay forest #1 -> Payload: {"type":"trayStart","zone":"forest","slot":1}
+[09:34:01 20/11/2026] [MY FARM POST] Trồng khay forest #2 -> Payload: {"type":"trayStart","zone":"forest","slot":2}
+[09:48:00 20/11/2026] [GỬI POST] Farm NhiTTY -> URL: https://at-sp.ssvhue.work/api/farm/visit/20 | Payload: {"bed":"flower","plot":1,"type":"water"}
+[09:48:02 20/11/2026] [GỬI POST] Farm NhiTTY -> URL: https://at-sp.ssvhue.work/api/farm/visit/20 | Payload: {"bed":"flower","plot":2,"type":"water"}
+[09:54:32 20/11/2026] [MY FARM POST] Thu máy juicer #2 -> Payload: {"type":"collectMachine","slot":2}
+[09:54:32 20/11/2026] [MY FARM POST] Thu máy saucer #4 -> Payload: {"type":"collectMachine","slot":4}
+[09:54:32 20/11/2026] [MY FARM POST] Thu máy veg_kitchen #8 -> Payload: {"type":"collectMachine","slot":8}
+[09:54:35 20/11/2026] [MY FARM POST] Chế biến orange_juice tại juicer #2 -> Payload: {"type":"craft","slot":2,"recipe":"orange_juice"}
+[09:54:35 20/11/2026] [MY FARM POST] Chế biến pumpkin_jam tại saucer #4 -> Payload: {"type":"craft","slot":4,"recipe":"pumpkin_jam"}
+[09:54:47 20/11/2026] [MY FARM POST] Thu hoạch undefined #0 -> Payload: {"type":"collectHives","slot":0}
+[10:14:47 20/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #0 -> Payload: {"type":"harvest","plot":0}
+[10:14:48 20/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #1 -> Payload: {"type":"harvest","plot":1}
+[10:14:48 20/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #2 -> Payload: {"type":"harvest","plot":2}
+[10:14:48 20/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #3 -> Payload: {"type":"harvest","plot":3}
+[10:14:48 20/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #4 -> Payload: {"type":"harvest","plot":4}
+[10:14:49 20/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #12 -> Payload: {"type":"harvest","plot":12}
+[10:14:49 20/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #13 -> Payload: {"type":"harvest","plot":13}
+[10:14:49 20/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #14 -> Payload: {"type":"harvest","plot":14}
+[10:14:49 20/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #15 -> Payload: {"type":"harvest","plot":15}
+[10:14:49 20/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #16 -> Payload: {"type":"harvest","plot":16}
+[10:14:51 20/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #5 -> Payload: {"type":"harvest","plot":5}
+[10:14:51 20/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #6 -> Payload: {"type":"harvest","plot":6}
+[10:14:51 20/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #7 -> Payload: {"type":"harvest","plot":7}
+[10:14:52 20/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #8 -> Payload: {"type":"harvest","plot":8}
+[10:14:52 20/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #9 -> Payload: {"type":"harvest","plot":9}
+[10:15:02 20/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #10 -> Payload: {"type":"harvest","plot":10}
+[10:15:03 20/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #11 -> Payload: {"type":"harvest","plot":11}
+[10:15:03 20/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #17 -> Payload: {"type":"harvest","plot":17}
+[10:17:18 20/11/2026] [MY FARM POST] Thu hoạch duck #11 -> Payload: {"type":"collect","slot":11}
+[10:17:21 20/11/2026] [MY FARM POST] Cho duck #11 ăn -> Payload: {"type":"feed","slot":11}
+[10:17:21 20/11/2026] [MY FARM POST] Cho duck #11 uống -> Payload: {"type":"drink","slot":11}
+[10:18:03 20/11/2026] [MY FARM POST] Chăm sóc khay compost #0 -> Payload: {"type":"trayTend","zone":"compost","slot":0}
+[10:18:03 20/11/2026] [MY FARM POST] Chăm sóc khay compost #1 -> Payload: {"type":"trayTend","zone":"compost","slot":1}
+[10:18:03 20/11/2026] [MY FARM POST] Chăm sóc khay compost #2 -> Payload: {"type":"trayTend","zone":"compost","slot":2}
+[10:18:03 20/11/2026] [MY FARM POST] Chăm sóc khay compost #3 -> Payload: {"type":"trayTend","zone":"compost","slot":3}
+[10:18:03 20/11/2026] [MY FARM POST] Chăm sóc khay compost #4 -> Payload: {"type":"trayTend","zone":"compost","slot":4}
+[10:36:25 20/11/2026] [MY FARM POST] Thu máy bakery #0 -> Payload: {"type":"collectMachine","slot":0}
+[10:36:40 20/11/2026] [MY FARM POST] Chế biến honey_cake tại bakery #0 -> Payload: {"type":"craft","slot":0,"recipe":"honey_cake"}
+[10:36:40 20/11/2026] [MY FARM POST] Thu máy roaster #14 -> Payload: {"type":"collectMachine","slot":14}
+[10:36:55 20/11/2026] [MY FARM POST] Chế biến roasted_coffee tại roaster #14 -> Payload: {"type":"craft","slot":14,"recipe":"roasted_coffee"}
+[10:41:40 20/11/2026] [MY FARM POST] Thu máy kitchen #7 -> Payload: {"type":"collectMachine","slot":7}
+[10:41:40 20/11/2026] [MY FARM POST] Thu máy grand_kitchen #11 -> Payload: {"type":"collectMachine","slot":11}
+[10:41:55 20/11/2026] [MY FARM POST] Chế biến juice tại kitchen #7 -> Payload: {"type":"craft","slot":7,"recipe":"juice"}
+[11:04:55 20/11/2026] [MY FARM POST] Thu máy carpenter #18 -> Payload: {"type":"collectMachine","slot":18}
+[11:06:58 20/11/2026] [GỬI POST] Farm ThanhND -> URL: https://at-sp.ssvhue.work/api/farm/visit/10 | Payload: {"type":"helpTray","zone":"silk","slot":0}
+[11:07:01 20/11/2026] [GỬI POST] Farm ThanhND -> URL: https://at-sp.ssvhue.work/api/farm/visit/10 | Payload: {"type":"helpTray","zone":"silk","slot":1}
+[11:07:02 20/11/2026] [GỬI POST] Farm ThanhND -> URL: https://at-sp.ssvhue.work/api/farm/visit/10 | Payload: {"type":"helpTray","zone":"silk","slot":2}
+[11:07:03 20/11/2026] [GỬI POST] Farm ThanhND -> URL: https://at-sp.ssvhue.work/api/farm/visit/10 | Payload: {"type":"helpTray","zone":"silk","slot":3}
+[11:07:06 20/11/2026] [GỬI POST] Farm ThanhND -> URL: https://at-sp.ssvhue.work/api/farm/visit/10 | Payload: {"type":"helpTray","zone":"silk","slot":4}
+[11:07:08 20/11/2026] [GỬI POST] Farm ThanhND -> URL: https://at-sp.ssvhue.work/api/farm/visit/10 | Payload: {"type":"helpTray","zone":"silk","slot":5}
+[11:13:10 20/11/2026] [MY FARM POST] Thu máy patisserie #10 -> Payload: {"type":"collectMachine","slot":10}
+[11:13:25 20/11/2026] [MY FARM POST] Chế biến banana_cake tại patisserie #10 -> Payload: {"type":"craft","slot":10,"recipe":"banana_cake"}
+[11:18:25 20/11/2026] [MY FARM POST] Trị sâu/bệnh mulberry tại ô #3 -> Payload: {"type":"cure","plot":3}
+[11:24:42 20/11/2026] [MY FARM POST] Trị sâu/bệnh mulberry tại ô #13 -> Payload: {"type":"cure","plot":13}
+[11:38:31 20/11/2026] [MY FARM POST] Trị sâu/bệnh mulberry tại ô #15 -> Payload: {"type":"cure","plot":15}
+[11:46:16 20/11/2026] [MY FARM POST] Trị sâu/bệnh mulberry tại ô #16 -> Payload: {"type":"cure","plot":16}
+[11:48:02 20/11/2026] [MY FARM POST] Thu hoạch fish #0 -> Payload: {"type":"collectPond","slot":0}
+[11:48:04 20/11/2026] [MY FARM POST] Thu hoạch fish #1 -> Payload: {"type":"collectPond","slot":1}
+[11:48:16 20/11/2026] [MY FARM POST] Thu hoạch fish #2 -> Payload: {"type":"collectPond","slot":2}
+[11:48:17 20/11/2026] [MY FARM POST] Chăm sóc khay forest #3 -> Payload: {"type":"trayTend","zone":"forest","slot":3}
+[11:48:31 20/11/2026] [MY FARM POST] Thu hoạch cow #3 -> Payload: {"type":"collect","slot":3}
+[11:48:32 20/11/2026] [MY FARM POST] Thu hoạch cow #4 -> Payload: {"type":"collect","slot":4}
+[11:48:32 20/11/2026] [MY FARM POST] Thu hoạch cow #5 -> Payload: {"type":"collect","slot":5}
+[11:48:34 20/11/2026] [MY FARM POST] Cho cow #3 ăn -> Payload: {"type":"feed","slot":3}
+[11:48:34 20/11/2026] [MY FARM POST] Cho cow #3 uống -> Payload: {"type":"drink","slot":3}
+[11:48:34 20/11/2026] [MY FARM POST] Cho cow #4 ăn -> Payload: {"type":"feed","slot":4}
+[11:48:35 20/11/2026] [MY FARM POST] Cho cow #4 uống -> Payload: {"type":"drink","slot":4}
+[11:48:35 20/11/2026] [MY FARM POST] Cho cow #5 ăn -> Payload: {"type":"feed","slot":5}
+[11:48:35 20/11/2026] [MY FARM POST] Cho cow #5 uống -> Payload: {"type":"drink","slot":5}
+[11:48:35 20/11/2026] [MY FARM POST] Chế biến cheese tại dairy #1 -> Payload: {"type":"craft","slot":1,"recipe":"cheese"}
+[11:48:35 20/11/2026] [MY FARM POST] Chế biến truffle_soup tại grand_kitchen #11 -> Payload: {"type":"craft","slot":11,"recipe":"truffle_soup"}
+[11:49:01 20/11/2026] [MY FARM POST] Thu hoạch chicken #0 -> Payload: {"type":"collect","slot":0}
+[11:49:02 20/11/2026] [MY FARM POST] Thu hoạch chicken #1 -> Payload: {"type":"collect","slot":1}
+[11:49:04 20/11/2026] [MY FARM POST] Cho chicken #0 ăn -> Payload: {"type":"feed","slot":0}
+[11:49:04 20/11/2026] [MY FARM POST] Cho chicken #0 uống -> Payload: {"type":"drink","slot":0}
+[11:49:04 20/11/2026] [MY FARM POST] Cho chicken #1 ăn -> Payload: {"type":"feed","slot":1}
+[11:49:04 20/11/2026] [MY FARM POST] Cho chicken #1 uống -> Payload: {"type":"drink","slot":1}
+[11:49:17 20/11/2026] [MY FARM POST] Thu hoạch chicken #2 -> Payload: {"type":"collect","slot":2}
+[11:49:17 20/11/2026] [MY FARM POST] Thu máy silk_mill #12 -> Payload: {"type":"collectMachine","slot":12}
+[11:49:19 20/11/2026] [MY FARM POST] Cho chicken #2 ăn -> Payload: {"type":"feed","slot":2}
+[11:49:19 20/11/2026] [MY FARM POST] Cho chicken #2 uống -> Payload: {"type":"drink","slot":2}
+[11:49:19 20/11/2026] [MY FARM POST] Chế biến silk tại silk_mill #12 -> Payload: {"type":"craft","slot":12,"recipe":"silk"}
+[11:49:47 20/11/2026] [MY FARM POST] Thu máy apothecary #13 -> Payload: {"type":"collectMachine","slot":13}
+[11:49:49 20/11/2026] [MY FARM POST] Chế biến herbal_tea tại apothecary #13 -> Payload: {"type":"craft","slot":13,"recipe":"herbal_tea"}
+[11:51:19 20/11/2026] [GỬI POST] Farm NhiTTY -> URL: https://at-sp.ssvhue.work/api/farm/visit/20 | Payload: {"type":"helpTray","zone":"silk","slot":0}
+[11:51:21 20/11/2026] [GỬI POST] Farm NhiTTY -> URL: https://at-sp.ssvhue.work/api/farm/visit/20 | Payload: {"type":"helpTray","zone":"silk","slot":1}
+[11:51:24 20/11/2026] [GỬI POST] Farm NhiTTY -> URL: https://at-sp.ssvhue.work/api/farm/visit/20 | Payload: {"type":"helpTray","zone":"silk","slot":2}
+[11:51:26 20/11/2026] [GỬI POST] Farm NhiTTY -> URL: https://at-sp.ssvhue.work/api/farm/visit/20 | Payload: {"type":"helpTray","zone":"silk","slot":3}
+[11:58:02 20/11/2026] [MY FARM POST] Thu máy mill #6 -> Payload: {"type":"collectMachine","slot":6}
+[11:58:04 20/11/2026] [MY FARM POST] Chế biến milled_rice tại mill #6 -> Payload: {"type":"craft","slot":6,"recipe":"milled_rice"}
+[12:20:33 20/11/2026] [MY FARM POST] Thu máy juicer #2 -> Payload: {"type":"collectMachine","slot":2}
+[12:20:33 20/11/2026] [MY FARM POST] Thu máy saucer #4 -> Payload: {"type":"collectMachine","slot":4}
+[12:20:35 20/11/2026] [MY FARM POST] Chế biến orange_juice tại juicer #2 -> Payload: {"type":"craft","slot":2,"recipe":"orange_juice"}
+[12:20:35 20/11/2026] [MY FARM POST] Chế biến pumpkin_jam tại saucer #4 -> Payload: {"type":"craft","slot":4,"recipe":"pumpkin_jam"}
+[12:25:48 20/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #0 -> Payload: {"type":"harvest","plot":0}
+[12:25:48 20/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #1 -> Payload: {"type":"harvest","plot":1}
+[12:25:48 20/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #2 -> Payload: {"type":"harvest","plot":2}
+[12:25:48 20/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #4 -> Payload: {"type":"harvest","plot":4}
+[12:25:49 20/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #5 -> Payload: {"type":"harvest","plot":5}
+[12:25:49 20/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #10 -> Payload: {"type":"harvest","plot":10}
+[12:25:49 20/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #11 -> Payload: {"type":"harvest","plot":11}
+[12:25:49 20/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #12 -> Payload: {"type":"harvest","plot":12}
+[12:25:49 20/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #17 -> Payload: {"type":"harvest","plot":17}
+[12:25:50 20/11/2026] [MY FARM POST] Thu máy dryer #3 -> Payload: {"type":"collectMachine","slot":3}
+[12:25:51 20/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #6 -> Payload: {"type":"harvest","plot":6}
+[12:25:51 20/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #7 -> Payload: {"type":"harvest","plot":7}
+[12:25:51 20/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #8 -> Payload: {"type":"harvest","plot":8}
+[12:25:51 20/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #9 -> Payload: {"type":"harvest","plot":9}
+[12:26:03 20/11/2026] [MY FARM POST] Chế biến dried_shrimp tại dryer #3 -> Payload: {"type":"craft","slot":3,"recipe":"dried_shrimp"}
+[12:26:03 20/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #3 -> Payload: {"type":"harvest","plot":3}
+[12:26:03 20/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #13 -> Payload: {"type":"harvest","plot":13}
+[12:26:03 20/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #14 -> Payload: {"type":"harvest","plot":14}
+[12:26:03 20/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #15 -> Payload: {"type":"harvest","plot":15}
+[12:26:05 20/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #16 -> Payload: {"type":"harvest","plot":16}
+[12:26:18 20/11/2026] [MY FARM POST] Thu máy bakery #0 -> Payload: {"type":"collectMachine","slot":0}
+[12:26:20 20/11/2026] [MY FARM POST] Chế biến honey_cake tại bakery #0 -> Payload: {"type":"craft","slot":0,"recipe":"honey_cake"}
+[12:26:33 20/11/2026] [MY FARM POST] Thu máy roaster #14 -> Payload: {"type":"collectMachine","slot":14}
+[12:26:35 20/11/2026] [MY FARM POST] Chế biến iced_coffee tại roaster #14 -> Payload: {"type":"craft","slot":14,"recipe":"iced_coffee"}
+[12:36:18 20/11/2026] [MY FARM POST] Thu hoạch cây coconut #10 -> Payload: {"type":"harvestTrees","slot":10}
+[12:36:38 20/11/2026] [GỬI POST] Farm HoanPV -> URL: https://at-sp.ssvhue.work/api/farm/visit/12 | Payload: {"type":"helpTray","zone":"herb","slot":0}
+[12:36:39 20/11/2026] [GỬI POST] Farm HoanPV -> URL: https://at-sp.ssvhue.work/api/farm/visit/12 | Payload: {"type":"helpTray","zone":"herb","slot":1}
+[12:36:42 20/11/2026] [GỬI POST] Farm HoanPV -> URL: https://at-sp.ssvhue.work/api/farm/visit/12 | Payload: {"type":"helpTray","zone":"herb","slot":2}
+[12:36:44 20/11/2026] [GỬI POST] Farm HoanPV -> URL: https://at-sp.ssvhue.work/api/farm/visit/12 | Payload: {"type":"helpTray","zone":"herb","slot":3}
+[12:36:46 20/11/2026] [GỬI POST] Farm HoanPV -> URL: https://at-sp.ssvhue.work/api/farm/visit/12 | Payload: {"type":"helpTray","zone":"herb","slot":4}
+[12:36:47 20/11/2026] [GỬI POST] Farm HoanPV -> URL: https://at-sp.ssvhue.work/api/farm/visit/12 | Payload: {"type":"helpTray","zone":"herb","slot":5}
+[12:36:50 20/11/2026] [GỬI POST] Farm HoanPV -> URL: https://at-sp.ssvhue.work/api/farm/visit/12 | Payload: {"type":"helpTray","zone":"herb","slot":6}
+[13:02:52 20/11/2026] [MY FARM POST] Thu máy patisserie #10 -> Payload: {"type":"collectMachine","slot":10}
+[13:03:05 20/11/2026] [MY FARM POST] Chế biến lychee_tea tại patisserie #10 -> Payload: {"type":"craft","slot":10,"recipe":"lychee_tea"}
+[13:11:05 20/11/2026] [MY FARM POST] Thu máy mill #6 -> Payload: {"type":"collectMachine","slot":6}
+[13:11:07 20/11/2026] [MY FARM POST] Chế biến milled_rice tại mill #6 -> Payload: {"type":"craft","slot":6,"recipe":"milled_rice"}
+[13:11:07 20/11/2026] [MY FARM POST] Chế biến shiitake_rice tại veg_kitchen #8 -> Payload: {"type":"craft","slot":8,"recipe":"shiitake_rice"}
+[13:20:50 20/11/2026] [MY FARM POST] Thu hoạch khay silk #0 -> Payload: {"type":"trayCollect","zone":"silk","slot":0}
+[13:20:50 20/11/2026] [MY FARM POST] Thu hoạch khay silk #1 -> Payload: {"type":"trayCollect","zone":"silk","slot":1}
+[13:20:51 20/11/2026] [MY FARM POST] Thu hoạch khay silk #2 -> Payload: {"type":"trayCollect","zone":"silk","slot":2}
+[13:20:51 20/11/2026] [MY FARM POST] Thu hoạch khay silk #3 -> Payload: {"type":"trayCollect","zone":"silk","slot":3}
+[13:20:51 20/11/2026] [MY FARM POST] Thu hoạch khay silk #4 -> Payload: {"type":"trayCollect","zone":"silk","slot":4}
+[13:20:53 20/11/2026] [MY FARM POST] Trồng khay silk #0 -> Payload: {"type":"trayStart","zone":"silk","slot":0}
+[13:21:05 20/11/2026] [MY FARM POST] Thu máy jeweler #17 -> Payload: {"type":"collectMachine","slot":17}
+[13:21:05 20/11/2026] [MY FARM POST] Trồng khay silk #1 -> Payload: {"type":"trayStart","zone":"silk","slot":1}
+[13:21:08 20/11/2026] [MY FARM POST] Chế biến crystal_shard tại jeweler #17 -> Payload: {"type":"craft","slot":17,"recipe":"crystal_shard"}
+[13:21:08 20/11/2026] [MY FARM POST] Trồng khay silk #2 -> Payload: {"type":"trayStart","zone":"silk","slot":2}
+[13:21:20 20/11/2026] [MY FARM POST] Trồng khay silk #3 -> Payload: {"type":"trayStart","zone":"silk","slot":3}
+[13:21:23 20/11/2026] [MY FARM POST] Trồng khay silk #4 -> Payload: {"type":"trayStart","zone":"silk","slot":4}
+[13:21:35 20/11/2026] [MY FARM POST] Thu hoạch khay silk #5 -> Payload: {"type":"trayCollect","zone":"silk","slot":5}
+[13:21:36 20/11/2026] [MY FARM POST] Chăm sóc khay forest #0 -> Payload: {"type":"trayTend","zone":"forest","slot":0}
+[13:21:38 20/11/2026] [MY FARM POST] Trồng khay silk #5 -> Payload: {"type":"trayStart","zone":"silk","slot":5}
+[13:21:51 20/11/2026] [MY FARM POST] Chăm sóc khay forest #1 -> Payload: {"type":"trayTend","zone":"forest","slot":1}
+[13:22:05 20/11/2026] [MY FARM POST] Chăm sóc khay forest #2 -> Payload: {"type":"trayTend","zone":"forest","slot":2}
+[13:23:51 20/11/2026] [MY FARM POST] Trị sâu/bệnh mulberry tại ô #17 -> Payload: {"type":"cure","plot":17}
+[13:39:36 20/11/2026] [MY FARM POST] Thu máy roaster #14 -> Payload: {"type":"collectMachine","slot":14}
+[13:39:45 20/11/2026] [MY FARM POST] Chế biến roasted_coffee tại roaster #14 -> Payload: {"type":"craft","slot":14,"recipe":"roasted_coffee"}
+[14:05:55 20/11/2026] [GỬI POST] Farm KhanhLQ -> URL: https://at-sp.ssvhue.work/api/farm/visit/9 | Payload: {"type":"helpTray","zone":"herb","slot":0}
+[14:05:57 20/11/2026] [GỬI POST] Farm KhanhLQ -> URL: https://at-sp.ssvhue.work/api/farm/visit/9 | Payload: {"type":"helpTray","zone":"herb","slot":1}
+[14:06:00 20/11/2026] [GỬI POST] Farm KhanhLQ -> URL: https://at-sp.ssvhue.work/api/farm/visit/9 | Payload: {"type":"helpTray","zone":"herb","slot":2}
+[14:06:02 20/11/2026] [GỬI POST] Farm KhanhLQ -> URL: https://at-sp.ssvhue.work/api/farm/visit/9 | Payload: {"type":"helpTray","zone":"herb","slot":3}
+[14:06:04 20/11/2026] [GỬI POST] Farm KhanhLQ -> URL: https://at-sp.ssvhue.work/api/farm/visit/9 | Payload: {"type":"helpTray","zone":"herb","slot":4}
+[14:06:13 20/11/2026] [GỬI POST] Farm KhanhLQ -> URL: https://at-sp.ssvhue.work/api/farm/visit/9 | Payload: {"type":"helpTray","zone":"herb","slot":6}
+[14:06:59 20/11/2026] [MY FARM POST] Thu hoạch undefined #0 -> Payload: {"type":"collectHives","slot":0}
+[14:14:43 20/11/2026] [MY FARM POST] Thu máy dairy #1 -> Payload: {"type":"collectMachine","slot":1}
+[14:15:13 20/11/2026] [MY FARM POST] Thu máy loom #5 -> Payload: {"type":"collectMachine","slot":5}
+[14:15:28 20/11/2026] [MY FARM POST] Chế biến sweater tại loom #5 -> Payload: {"type":"craft","slot":5,"recipe":"sweater"}
+[14:15:29 20/11/2026] [MY FARM POST] Thu máy silk_mill #12 -> Payload: {"type":"collectMachine","slot":12}
+[14:15:43 20/11/2026] [MY FARM POST] Chế biến silk_cloth tại silk_mill #12 -> Payload: {"type":"craft","slot":12,"recipe":"silk_cloth"}
+[14:15:58 20/11/2026] [MY FARM POST] Thu máy bakery #0 -> Payload: {"type":"collectMachine","slot":0}
+[14:16:13 20/11/2026] [MY FARM POST] Chế biến honey_cake tại bakery #0 -> Payload: {"type":"craft","slot":0,"recipe":"honey_cake"}
+[14:24:15 20/11/2026] [MY FARM POST] Thu máy mill #6 -> Payload: {"type":"collectMachine","slot":6}
+[14:24:30 20/11/2026] [MY FARM POST] Chế biến milled_rice tại mill #6 -> Payload: {"type":"craft","slot":6,"recipe":"milled_rice"}
+[14:33:16 20/11/2026] [MY FARM POST] Thu hoạch cây durian #13 -> Payload: {"type":"harvestTrees","slot":13}
+[14:37:47 20/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #0 -> Payload: {"type":"harvest","plot":0}
+[14:37:47 20/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #1 -> Payload: {"type":"harvest","plot":1}
+[14:37:47 20/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #2 -> Payload: {"type":"harvest","plot":2}
+[14:37:47 20/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #3 -> Payload: {"type":"harvest","plot":3}
+[14:37:48 20/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #4 -> Payload: {"type":"harvest","plot":4}
+[14:37:48 20/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #12 -> Payload: {"type":"harvest","plot":12}
+[14:37:48 20/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #13 -> Payload: {"type":"harvest","plot":13}
+[14:37:48 20/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #14 -> Payload: {"type":"harvest","plot":14}
+[14:37:48 20/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #15 -> Payload: {"type":"harvest","plot":15}
+[14:37:49 20/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #16 -> Payload: {"type":"harvest","plot":16}
+[14:38:02 20/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #5 -> Payload: {"type":"harvest","plot":5}
+[14:38:02 20/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #6 -> Payload: {"type":"harvest","plot":6}
+[14:38:02 20/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #7 -> Payload: {"type":"harvest","plot":7}
+[14:38:02 20/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #8 -> Payload: {"type":"harvest","plot":8}
+[14:38:03 20/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #9 -> Payload: {"type":"harvest","plot":9}
+[14:38:17 20/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #10 -> Payload: {"type":"harvest","plot":10}
+[14:38:17 20/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #11 -> Payload: {"type":"harvest","plot":11}
+[14:38:17 20/11/2026] [MY FARM POST] Thu hoạch mulberry tại ô #17 -> Payload: {"type":"harvest","plot":17}
+[14:38:47 20/11/2026] [MY FARM POST] Tưới nước mulberry tại ô #0 -> Payload: {"type":"water","plot":0}
+[14:38:47 20/11/2026] [MY FARM POST] Tưới nước mulberry tại ô #1 -> Payload: {"type":"water","plot":1}
+[14:38:47 20/11/2026] [MY FARM POST] Tưới nước mulberry tại ô #2 -> Payload: {"type":"water","plot":2}
+[14:38:47 20/11/2026] [MY FARM POST] Tưới nước mulberry tại ô #3 -> Payload: {"type":"water","plot":3}
+[14:38:48 20/11/2026] [MY FARM POST] Tưới nước mulberry tại ô #5 -> Payload: {"type":"water","plot":5}
+[14:38:48 20/11/2026] [MY FARM POST] Tưới nước mulberry tại ô #12 -> Payload: {"type":"water","plot":12}
+[14:38:48 20/11/2026] [MY FARM POST] Tưới nước mulberry tại ô #13 -> Payload: {"type":"water","plot":13}
+[14:38:48 20/11/2026] [MY FARM POST] Tưới nước mulberry tại ô #14 -> Payload: {"type":"water","plot":14}
+[14:38:48 20/11/2026] [MY FARM POST] Tưới nước mulberry tại ô #15 -> Payload: {"type":"water","plot":15}
+[14:38:49 20/11/2026] [MY FARM POST] Tưới nước mulberry tại ô #16 -> Payload: {"type":"water","plot":16}
+[14:46:32 20/11/2026] [MY FARM POST] Thu máy juicer #2 -> Payload: {"type":"collectMachine","slot":2}
+[14:46:33 20/11/2026] [MY FARM POST] Thu máy saucer #4 -> Payload: {"type":"collectMachine","slot":4}
+[14:46:47 20/11/2026] [MY FARM POST] Chế biến orange_juice tại juicer #2 -> Payload: {"type":"craft","slot":2,"recipe":"orange_juice"}
+[14:46:48 20/11/2026] [MY FARM POST] Chế biến pumpkin_jam tại saucer #4 -> Payload: {"type":"craft","slot":4,"recipe":"pumpkin_jam"}
+[14:50:03 20/11/2026] [MY FARM POST] Thu hoạch cây apple #0 -> Payload: {"type":"harvestTrees","slot":0}
+[14:50:33 20/11/2026] [MY FARM POST] Thu hoạch shrimp #3 -> Payload: {"type":"collectPond","slot":3}
+[14:50:48 20/11/2026] [MY FARM POST] Thu hoạch shrimp #4 -> Payload: {"type":"collectPond","slot":4}
+[14:50:48 20/11/2026] [MY FARM POST] Thu hoạch shrimp #5 -> Payload: {"type":"collectPond","slot":5}
+[14:51:03 20/11/2026] [MY FARM POST] Thu hoạch sheep #6 -> Payload: {"type":"collect","slot":6}
+[14:51:03 20/11/2026] [MY FARM POST] Thu hoạch sheep #7 -> Payload: {"type":"collect","slot":7}
+[14:51:03 20/11/2026] [MY FARM POST] Thu hoạch sheep #8 -> Payload: {"type":"collect","slot":8}
+[14:51:03 20/11/2026] [MY FARM POST] Thu hoạch rabbit #9 -> Payload: {"type":"collect","slot":9}
+[14:51:03 20/11/2026] [MY FARM POST] Thu hoạch rabbit #10 -> Payload: {"type":"collect","slot":10}
+[14:51:18 20/11/2026] [MY FARM POST] Cho sheep #6 ăn -> Payload: {"type":"feed","slot":6}
+[14:51:18 20/11/2026] [MY FARM POST] Cho sheep #6 uống -> Payload: {"type":"drink","slot":6}
+[14:51:18 20/11/2026] [MY FARM POST] Cho sheep #7 ăn -> Payload: {"type":"feed","slot":7}
+[14:51:18 20/11/2026] [MY FARM POST] Cho sheep #7 uống -> Payload: {"type":"drink","slot":7}
+[14:51:19 20/11/2026] [MY FARM POST] Cho rabbit #10 ăn -> Payload: {"type":"feed","slot":10}
